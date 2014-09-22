@@ -7,7 +7,8 @@ git commit -m "Catching changes to ./bin ./src README.md and LICENSE"
 git push origin master
 
 
-echo -n "checking out working directories
+echo -n "removing existing working dir and creating a new one"
+rm -rf /tmp/puppetfile_env
 mkdir -p /tmp/puppetfile_env
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b master /tmp/puppetfile_env/master
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b production /tmp/puppetfile_env/production
