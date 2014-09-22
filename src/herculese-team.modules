@@ -1,0 +1,19 @@
+##### Hercules Team Augeas Providers #####
+##### These are Puppetlabs Endorsed Modules and Versions #####
+
+#mod 'mymodule', :git => "#{hercules-team_repo_prefix}-mymodule", :ref => hercules-team_module_branch
+
+# Puppetlabs Offically Supported Modules and Appropriate Version
+mod 'augeasproviders',          :git => "#{base_url}/hercules-team/augeasproviders",          :tag => 'v2.0.0' #APPROVED
+mod 'augeasproviders_shellvar',   :git => "#{base_url}/hercules-team/augeasproviders_shellvar",          :tag => '2.0.1' #APPROVED
+mod 'augeasproviders_sysctl',     :git => "#{base_url}/hercules-team/augeasproviders_sysctl",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_ssh',        :git => "#{base_url}/hercules-team/augeasproviders_ssh",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_pam',        :git => "#{base_url}/hercules-team/augeasproviders_pam",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_mounttab',   :git => "#{base_url}/hercules-team/augeasproviders_mounttab",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_grub',       :git => "#{base_url}/hercules-team/augeasproviders_grub",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_base',       :git => "#{base_url}/hercules-team/augeasproviders_base",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_nagios',     :git => "#{base_url}/hercules-team/augeasproviders_nagios",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_apache',     :git => "#{base_url}/hercules-team/augeasproviders_apache",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_syslog',     :git => "#{base_url}/hercules-team/augeasproviders_syslog",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_postgresql', :git => "#{base_url}/hercules-team/augeasproviders_postgresql",          :tag => '2.0.0' #APPROVED
+mod 'augeasproviders_puppet',     :git => "#{base_url}/hercules-team/augeasproviders_puppet",          :tag => '2.0.0' #APPROVED

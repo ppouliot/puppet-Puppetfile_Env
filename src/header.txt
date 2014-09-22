@@ -1,0 +1,5 @@
+# Warning: This file is managed by puppet.
+# 
+# Please look at the Puppetfile-cambridge module and files for information
+#
+#

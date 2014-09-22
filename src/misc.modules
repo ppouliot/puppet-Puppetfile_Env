@@ -1,0 +1,31 @@
+##### Other modules #####
+
+##
+# Example Usage of the variable
+# repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+# mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
+##
+
+mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
+mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
+mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
+# Using upstream 
+mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
+# Moving to Development Branch in OpenStack Hyper-V until we finish centos support
+#mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
+mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
+mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey" #PRODUCTION
+mod 'windows-path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION
+mod 'python',        :git => "#{base_url}/stankevich/puppet-python" #PRODUCTION
+mod 'networkdevice', :git => "#{base_url}/uniak/puppet-networkdevice" #TESTING
+mod 'sensu',         :git => "#{base_url}/sensu/sensu-puppet" #APPROVED
+mod 'epel',          :git => "#{base_url}/stahnma/puppet-module-epel" #APPROVED
+mod 'sysctl',        :git => "#{base_url}/duritong/puppet-sysctl" #PRODUCTION
+mod 'puppi',         :git => "#{base_url}/example42/puppi" #PRODUCTION
+mod 'perl',          :git => "#{base_url}/example42/puppet-perl" #PRODUCTION
+#mod 'mariadb',      :git => "#{base_url}/NeCTAR-RC/puppet-mariadb" #TESTING
+mod 'galera',        :git => "#{base_url}/CiscoSystems/puppet-galera" #TESTING
+mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION
+mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION
+# Zack/R10k
+mod 'r10k',                       :git => "#{base_url}/acidprime/r10k" #TESTING

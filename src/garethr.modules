@@ -1,0 +1,2 @@
+mod 'erlang',        :git => "#{base_url}/garethr/garethr-erlang" #APPROVED
+mod 'docker',        :git => "#{base_url}/garethr/garethr-docker" #PRODUCTION
