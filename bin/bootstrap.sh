@@ -7,6 +7,7 @@ echo -n "- installing git"
 apt-get update -y && apt-get install -y git
 echo -n "- changing to /etc"
 cd /etc/
+rm -rf /etc/puppet
 echo -n "- Retrieving Base /etc/puppet"
 git clone https://github.com/ppouliot/puppet-etc_puppet puppet
 
