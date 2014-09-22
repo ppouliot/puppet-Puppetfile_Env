@@ -32,7 +32,7 @@ echo -n "- Installing R10K"
 gem install r10k
 
 
-echo -n "- Installing Puppetlabs Supported and Endorsed Modules to BaseModulePath'
+echo -n "- Installing Puppetlabs Supported and Endorsed Modules to BaseModulePath"
 cd /etc/puppet && r10k --verbose DEBUG puppetfile install
-echo -n "- deploying environment modules'
+echo -n "- deploying environment modules"
 cd /etc/puppet && r10k --verbose DEBUG deploy environment -vp
