@@ -15,6 +15,7 @@ git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b production /tmp/p
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b staging /tmp/puppetfile_env/staging
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b testing /tmp/puppetfile_env/testing
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b development /tmp/puppetfile_env/development
+git clone https://github.com/ppouliot/puppet-etc_puppet /tmp/puppet-etc_puppet
 
 echo -n "generating the base puppetfile in the master branch"
 echo -n "this will be used to populate /etc/puppet/modules"
@@ -50,6 +51,14 @@ cat src/settings.puppetfile >> /tmp/puppetfile_env/testing/Puppetfile
 cat src/*.modules |grep '#TESTING'  >> /tmp/puppetfile_env/testing/Puppetfile
 
 echo -n "commiting changes upstream"
+
+echo -n "updateing our puppetfile in our puppet-etc_puppet"
+cd /tmp/puppet-etc_puppet
+cat /tmp/puppetfile_env/master/Puppetfile.base > ./Puppetfile
+git add ./Puppetfile
+git commit -m "adding latest Puppetfile.base from puppet-Puppetfile_Env to the puppet-etc_puppet module"
+git push origin master
+
 
 cd /tmp/puppetfile_env/master
 git add ./Puppetfile.base
