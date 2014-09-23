@@ -11,8 +11,8 @@ rm -rf /etc/puppet
 echo -n "- Retrieving Base /etc/puppet"
 git clone https://github.com/ppouliot/puppet-etc_puppet puppet
 
-echo -n "installing base puppetfile for /etc/puppet/modules"
-wget -cv https://raw.githubusercontent.com/ppouliot/puppet-Puppetfile_Env/master/Puppetfile.base -O /etc/puppet/Puppetfile
+#echo -n "installing base puppetfile for /etc/puppet/modules"
+#wget -cv https://raw.githubusercontent.com/ppouliot/puppet-Puppetfile_Env/master/Puppetfile.base -O /etc/puppet/Puppetfile
 
 echo -n "- Installing PuppetLabs Repositories"
 cd /tmp
