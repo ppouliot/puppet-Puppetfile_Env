@@ -80,7 +80,7 @@ git add ./Puppetfile
 git commit -m "adding latest Puppetfile to the Testing Branch"
 git push origin testing
 
-cd /tmp/puppetfile_env/testing
+cd /tmp/puppetfile_env/development
 git add ./Puppetfile
-git commit -m "adding latest Puppetfile to the Testing Branch"
-git push origin testing
+git commit -m "adding latest Puppetfile to the Development Branch"
+git push origin development
