@@ -74,6 +74,7 @@ mod 'puppi',         :git => "#{base_url}/example42/puppi" #PRODUCTION
 mod 'perl',          :git => "#{base_url}/example42/puppet-perl" #PRODUCTION
 mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION
+mod 'r10k',                       :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
 mod 'quartermaster',       :git => "#{ssh_url}/openstack-hyper-v/puppet-quartermaster" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
