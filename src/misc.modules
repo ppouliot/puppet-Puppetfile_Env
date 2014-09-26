@@ -12,6 +12,7 @@ mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
 # Using upstream 
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
 mod 'pf',            :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
+mod 'osticket',      :git => "#{base_url}/megatron3000/puppet-osticket" #DEVELOPMENT
 # Moving to Development Branch in OpenStack Hyper-V until we finish centos support
 #mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
