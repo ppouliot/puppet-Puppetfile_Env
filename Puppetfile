@@ -77,6 +77,7 @@ mod 'archive',        	:git => "#{base_url}/nanliu/puppet-archive",	      :ref =
 #mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING
 mod 'gitlab',              :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab" #TESTING
 mod 'gitlab_server',       :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab_server" #TESTING
+mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #TESTING
 mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING
 mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING
 mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #TESTING
