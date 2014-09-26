@@ -62,4 +62,4 @@ branch_name  = 'origin/havana'
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
 mod 'pf',            :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
-mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #DEVELOPMENT
+mod 'osticket',      :git => "#{base_url}/megatron3000/puppet-osticket" #DEVELOPMENT
