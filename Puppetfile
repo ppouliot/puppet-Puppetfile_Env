@@ -1,3 +1,8 @@
+# Warning: This file is managed by puppet.
+# 
+# Please look at the Puppetfile-cambridge module and files for information
+#
+#
 # This Logic was provided by bodepd
 
 # the account where the Openstack modules should come from
@@ -55,3 +60,6 @@ branch_name  = 'origin/havana'
 ##### Puppet Labs modules #####
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
+mod 'pf',            :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
+mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #DEVELOPMENT
