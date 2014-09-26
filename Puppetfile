@@ -68,7 +68,6 @@ mod 'windows_isos',       :git => "#{base_url}/insentia/windows_isos" #TESTING
 mod 'networkdevice', :git => "#{base_url}/uniak/puppet-networkdevice" #TESTING
 #mod 'mariadb',      :git => "#{base_url}/NeCTAR-RC/puppet-mariadb" #TESTING
 mod 'galera',        :git => "#{base_url}/CiscoSystems/puppet-galera" #TESTING
-mod 'r10k',                       :git => "#{base_url}/acidprime/r10k" #TESTING
 mod 'transport',        :git => "#{base_url}/nanliu/puppet-transport",        :ref => 'master' #TESTING
 mod 'lsb',              :git => "#{base_url}/nanliu/puppet-lsb",              :ref => 'master' #TESTING
 #mod 'git',              :git => "#{base_url}/nanliu/puppet-git",              :ref => 'master' #TESTING
