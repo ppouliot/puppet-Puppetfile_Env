@@ -7,7 +7,7 @@
 ##  Beware! (and good luck!)
 
 class { 'r10k':
-  version           => '1.3.2',
+  version           => latest,
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/ppouliot/puppet-Puppetfile_Env.git',
