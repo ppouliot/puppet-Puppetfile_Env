@@ -27,7 +27,7 @@ if [ $? $test -eq 1 ]; then
 fi
 
 echo -n "- Installing Puppet and other necessary packages"
-apt-get update -y && apt-get install -y openssh-server puppet ruby ruby-dev
+apt-get update -y && apt-get install -y --force-yes openssh-server puppet ruby ruby-dev
 
 echo -n "- Installing R10K"
 gem install r10k
