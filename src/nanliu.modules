@@ -7,4 +7,4 @@ mod 'lsb',              :git => "#{base_url}/nanliu/puppet-lsb",              :r
 mod 'export_resources', :git => "#{base_url}/nanliu/puppet-export_resources", :ref => 'master' #TESTING
 mod 'hiera',           	:git => "#{base_url}/nanliu/puppet-hiera",            :ref => 'master' #TESTING
 mod 'archive',        	:git => "#{base_url}/nanliu/puppet-archive",	      :ref => 'master' #TESTING
-#mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING
+#mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING #WINDOWS
