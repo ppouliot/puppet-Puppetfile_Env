@@ -5,3 +5,4 @@ mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #T
 mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TESTING
 mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING
 mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING
+mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #TESTING
