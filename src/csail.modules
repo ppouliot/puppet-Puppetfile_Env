@@ -1,0 +1,2 @@
+# http://tig.csail.mit.edu/wiki/TIG/PuppetAtCSAIL
+mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
