@@ -74,26 +74,27 @@ mod 'lsb',              :git => "#{base_url}/nanliu/puppet-lsb",              :r
 mod 'export_resources', :git => "#{base_url}/nanliu/puppet-export_resources", :ref => 'master' #TESTING
 mod 'hiera',           	:git => "#{base_url}/nanliu/puppet-hiera",            :ref => 'master' #TESTING
 mod 'archive',        	:git => "#{base_url}/nanliu/puppet-archive",	      :ref => 'master' #TESTING
-#mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING
+#mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING #WINDOWS
 mod 'gitlab',              :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab" #TESTING
 mod 'gitlab_server',       :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab_server" #TESTING
-mod 'windowsfeature',      :git => "#{base_url}/opentable/puppet-windowsfeature"      #TESTING
-mod 'sslcert',             :git => "#{base_url}/opentable/puppet-sslcert"             #TESTING
+mod 'windowsfeature',      :git => "#{base_url}/opentable/puppet-windowsfeature"      #TESTING #WINDOWS
+mod 'sslcert',             :git => "#{base_url}/opentable/puppet-sslcert"             #TESTING #WINDOWS
 mod 'iis',                 :git => "#{base_url}/opentable/puppet-iis"                 #TESTING
-mod 'iis_rewrite',         :git => "#{base_url}/opentable/puppet-iis_rewrite"         #TESTING
-mod 'graphite_powershell', :git => "#{base_url}/opentable/puppet-graphite_powershell" #TESTING
+mod 'iis_rewrite',         :git => "#{base_url}/opentable/puppet-iis_rewrite"         #TESTING #WINDOWS
+mod 'graphite_powershell', :git => "#{base_url}/opentable/puppet-graphite_powershell" #TESTING #WINDOWS
 mod 'altlib',              :git => "#{base_url}/opentable/puppet-altlib"              #TESTING
 mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"            #TESTING
 mod 'jenkins_job_builder', :git => "#{base_url}/opentable/puppet-jenkins_job_builder" #TESTING
 mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"            #TESTING
-mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING
-mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING
-mod 'snmpinformant',       :git => "#{base_url}/opentable/puppet-snmpinformant"       #TESTING
+mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
+mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
+mod 'snmpinformant',       :git => "#{base_url}/opentable/puppet-snmpinformant"       #TESTING #WINDOWS
 mod 'windows-service-installer', :git => "#{base_url}/opentable/puppet-windosws-service-installer"  #TESTING
-mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING
-mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING
-mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #TESTING
-mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #TESTING
-mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TESTING
-mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING
-mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING
+mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING #WINDOWS
+mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING #WINDOWS
+mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #TESTING #WINDOWS
+mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #TESTING #WINDOWS
+mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TESTING #WINDOWS
+mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING #WINDOWS
+mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING #WINDOWS
+mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #TESTING #WINDOWS
