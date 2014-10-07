@@ -60,6 +60,7 @@ branch_name  = 'origin/havana'
 ##### Puppet Labs modules #####
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
 mod 'docker',        :git => "#{base_url}/garethr/garethr-docker" #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
@@ -130,3 +131,5 @@ mod 'sahara',     :git => "#{openstack_repo_prefix}-sahara",     :ref => opensta
 mod 'swift',      :git => "#{openstack_repo_prefix}-swift",      :ref => openstack_module_branch #PRODUCTION
 mod 'tempest',    :git => "#{openstack_repo_prefix}-tempest",    :ref => openstack_module_branch #PRODUCTION
 mod 'vswitch',    :git => "#{openstack_repo_prefix}-vswitch",    :ref => openstack_module_branch #PRODUCTION
+mod 'pkgng', :git => "#{base_url}/xaque208/puppet-pkgng" #PRODUCTION #FREEBSD
+mod 'bsd',   :git => "#{base_url}/xaque208/puppet-bsd"   #PRODUCTION #FREEBSD
