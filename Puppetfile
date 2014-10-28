@@ -61,7 +61,6 @@ branch_name  = 'origin/havana'
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
-mod 'docker',        :git => "#{base_url}/garethr/garethr-docker" #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
