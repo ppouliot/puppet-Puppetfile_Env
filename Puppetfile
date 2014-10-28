@@ -61,10 +61,13 @@ branch_name  = 'origin/havana'
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
+mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube"  #PRODUCTION
+mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven"      #PRODUCTION
+mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen" #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
-#mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
+mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey" #PRODUCTION
 mod 'windows-path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION
@@ -75,7 +78,6 @@ mod 'perl',          :git => "#{base_url}/example42/puppet-perl" #PRODUCTION
 mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION
 mod 'r10k',                       :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
-mod 'quartermaster',       :git => "#{ssh_url}/openstack-hyper-v/puppet-quartermaster" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
@@ -92,15 +94,15 @@ mod 'java',                :git => "#{ssh_url}/openstack-hyper-v/puppetlabs-java
 mod 'windows_python',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_python" #PRODUCTION
 mod 'hyper_v',             :git => "#{ssh_url}/openstack-hyper-v/puppet-hyper_v" #PRODUCTION
 mod 'network_mgmt',        :git => "#{ssh_url}/openstack-hyper-v/puppet-network_mgmt" #PRODUCTION
-mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #PRODUCTION
 mod 'jenkins_job_builder', :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins_job_builder" #PRODUCTION
 mod 'mingw',               :git => "#{ssh_url}/openstack-hyper-v/puppet-mingw" #PRODUCTION
 mod 'cloudbase_prep',      :git => "#{ssh_url}/openstack-hyper-v/puppet-cloudbase_prep" #PRODUCTION
 mod 'iphawk',              :git => "#{ssh_url}/openstack-hyper-v/puppet-iphawk" #PRODUCTION
 mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #PRODUCTION
 mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsman" #PRODUCTION
-mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #PRODUCTION
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
+mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
+mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :ref => 'master' #PRODUCTION
 mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :ref => 'master' #PRODUCTION
 mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :ref => 'master' #PRODUCTION
@@ -115,20 +117,26 @@ mod 'php',       :git => "#{base_url}/saz/puppet-php" #PRODUCTION
 mod 'sudu',      :git => "#{base_url}/saz/puppet-sudo" #PRODUCTION
 mod 'ssh',       :git => "#{base_url}/saz/puppet-ssh" #PRODUCTION
 mod 'memcached', :git => "#{base_url}/saz/puppet-memcached" #PRODUCTION
-mod 'ceilometer', :git => "#{openstack_repo_prefix}-ceilometer", :ref => openstack_module_branch  #PRODUCTION
-mod 'ceph',       :git => "#{openstack_repo_prefix}-ceph",       :ref => openstack_module_branch #PRODUCTION
-mod 'cinder',     :git => "#{openstack_repo_prefix}-cinder",     :ref => openstack_module_branch #PRODUCTION
-mod 'glance',     :git => "#{openstack_repo_prefix}-glance",     :ref => openstack_module_branch #PRODUCTION
-mod 'heat',       :git => "#{openstack_repo_prefix}-heat",       :ref => openstack_module_branch #PRODUCTION
-mod 'ironic',     :git => "#{openstack_repo_prefix}-ironic",     :ref => openstack_module_branch #PRODUCTION
-mod 'keystone',   :git => "#{openstack_repo_prefix}-keystone",   :ref => openstack_module_branch #PRODUCTION
-mod 'horizon',    :git => "#{openstack_repo_prefix}-horizon",    :ref => openstack_module_branch #PRODUCTION
-mod 'nova',       :git => "#{openstack_repo_prefix}-nova",       :ref => openstack_module_branch #PRODUCTION
-mod 'neutron',    :git => "#{openstack_repo_prefix}-neutron",    :ref => openstack_module_branch #PRODUCTION
-mod 'openstack',  :git => "#{openstack_repo_prefix}-openstack",  :ref => openstack_module_branch #PRODUCTION
-mod 'sahara',     :git => "#{openstack_repo_prefix}-sahara",     :ref => openstack_module_branch #PRODUCTION
-mod 'swift',      :git => "#{openstack_repo_prefix}-swift",      :ref => openstack_module_branch #PRODUCTION
-mod 'tempest',    :git => "#{openstack_repo_prefix}-tempest",    :ref => openstack_module_branch #PRODUCTION
-mod 'vswitch',    :git => "#{openstack_repo_prefix}-vswitch",    :ref => openstack_module_branch #PRODUCTION
+mod 'ceilometer',        :git => "#{openstack_repo_prefix}-ceilometer",         :ref => openstack_module_branch  #PRODUCTION
+mod 'ceph',              :git => "#{openstack_repo_prefix}-ceph",               :ref => openstack_module_branch #PRODUCTION
+mod 'cinder',            :git => "#{openstack_repo_prefix}-cinder",             :ref => openstack_module_branch #PRODUCTION
+mod 'designate',         :git => "#{openstack_repo_prefix}-designate",          :ref => openstack_module_branch #PRODUCTION
+mod 'glance',            :git => "#{openstack_repo_prefix}-glance",             :ref => openstack_module_branch #PRODUCTION
+mod 'heat',              :git => "#{openstack_repo_prefix}-heat",               :ref => openstack_module_branch #PRODUCTION
+mod 'horizon',           :git => "#{openstack_repo_prefix}-horizon",            :ref => openstack_module_branch #PRODUCTION
+mod 'ironic',            :git => "#{openstack_repo_prefix}-ironic",             :ref => openstack_module_branch #PRODUCTION
+mod 'keystone',          :git => "#{openstack_repo_prefix}-keystone",           :ref => openstack_module_branch #PRODUCTION
+mod 'manila',            :git => "#{openstack_repo_prefix}-manila",             :ref => openstack_module_branch #PRODUCTION
+mod 'nova',              :git => "#{openstack_repo_prefix}-nova",               :ref => openstack_module_branch #PRODUCTION
+mod 'neutron',           :git => "#{openstack_repo_prefix}-neutron",            :ref => openstack_module_branch #PRODUCTION
+mod 'openstack',         :git => "#{openstack_repo_prefix}-openstack",          :ref => openstack_module_branch #PRODUCTION
+mod 'openstack_dev_env', :git => "#{openstack_repo_prefix}-openstack_dev_env",  :ref => openstack_module_branch #PRODUCTION
+mod 'openstack_extras',  :git => "#{openstack_repo_prefix}-openstack_extras",   :ref => openstack_module_branch #PRODUCTION
+mod 'openstacklib',      :git => "#{openstack_repo_prefix}-openstacklib",       :ref => openstack_module_branch #PRODUCTION
+mod 'sahara',            :git => "#{openstack_repo_prefix}-sahara",             :ref => openstack_module_branch #PRODUCTION
+mod 'swift',             :git => "#{openstack_repo_prefix}-swift",              :ref => openstack_module_branch #PRODUCTION
+mod 'tempest',           :git => "#{openstack_repo_prefix}-tempest",            :ref => openstack_module_branch #PRODUCTION
+mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              :ref => openstack_module_branch #PRODUCTION
+mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
 mod 'pkgng', :git => "#{base_url}/xaque208/puppet-pkgng" #PRODUCTION #FREEBSD
 mod 'bsd',   :git => "#{base_url}/xaque208/puppet-bsd"   #PRODUCTION #FREEBSD
