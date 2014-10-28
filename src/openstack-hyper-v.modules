@@ -7,7 +7,6 @@
 ##
 
 #mod 'manifests',                            :git => "#{ssh_url}/openstack-hyper-v/puppet-manifests"
-mod 'quartermaster',       :git => "#{ssh_url}/openstack-hyper-v/puppet-quartermaster" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'gitlab',              :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab" #TESTING
@@ -27,7 +26,7 @@ mod 'java',                :git => "#{ssh_url}/openstack-hyper-v/puppetlabs-java
 mod 'windows_python',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_python" #PRODUCTION
 mod 'hyper_v',             :git => "#{ssh_url}/openstack-hyper-v/puppet-hyper_v" #PRODUCTION
 mod 'network_mgmt',        :git => "#{ssh_url}/openstack-hyper-v/puppet-network_mgmt" #PRODUCTION
-mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #PRODUCTION
+mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #DEVELOPMENT
 mod 'jenkins_job_builder', :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins_job_builder" #PRODUCTION
 mod 'mingw',               :git => "#{ssh_url}/openstack-hyper-v/puppet-mingw" #PRODUCTION
 mod 'cloudbase_prep',      :git => "#{ssh_url}/openstack-hyper-v/puppet-cloudbase_prep" #PRODUCTION
@@ -35,5 +34,5 @@ mod 'iphawk',              :git => "#{ssh_url}/openstack-hyper-v/puppet-iphawk" 
 mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #PRODUCTION
 mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsman" #PRODUCTION
 # Development Branch while adding centos support
-mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #PRODUCTION
+mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DEVELOPMENT
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
