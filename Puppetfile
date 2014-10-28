@@ -60,5 +60,8 @@ branch_name  = 'origin/havana'
 ##### Puppet Labs modules #####
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
-mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
-mod 'pf',            :git => "#{base_url}/ppouliot/puppet-profiles" #DEVELOPMENT
+mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #DEVELOPMENT
+mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DEVELOPMENT
+mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
+mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
+mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
