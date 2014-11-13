@@ -1,6 +1,11 @@
+#!/bin/bash
 #
 # This validates the formatting of the Puppetfile file
 #
+
+baseurl_https = 'https://github.com'
+baseurl_git = 'git://github.com'
+
 echo -n "saving changes upstream"
 git add bin src README.md LICENSE
 git commit -m "Catching changes to ./bin ./src README.md and LICENSE"
