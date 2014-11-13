@@ -77,6 +77,12 @@ mod 'archive',        	:git => "#{base_url}/nanliu/puppet-archive",	      :ref =
 #mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING #WINDOWS
 mod 'gitlab',              :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab" #TESTING
 mod 'gitlab_server',       :git => "#{ssh_url}/openstack-hyper-v/puppet-gitlab_server" #TESTING
+mod 'quartermaster',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-ipam" #TESTING
+mod 'nasm',                         :git => "#{ssh_url}/openstack-hyper-v-python/puppet-nasm" #TESTING
+mod 'mysql_connector_c_windows',    :git => "#{ssh_url}/openstack-hyper-v-python/puppet-mysql_connector_c_windows" #TESTING
+mod 'mysql_windows',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-mysql_windows" #TESTING
+mod 'svn_windows',                  :git => "#{ssh_url}/openstack-hyper-v-python/puppet-svn_windows" #TESTING
+mod 'swig',                         :git => "#{ssh_url}/openstack-hyper-v-python/puppet-swig" #TESTING
 mod 'windowsfeature',      :git => "#{base_url}/opentable/puppet-windowsfeature"      #TESTING #WINDOWS
 mod 'sslcert',             :git => "#{base_url}/opentable/puppet-sslcert"             #TESTING #WINDOWS
 mod 'iis',                 :git => "#{base_url}/opentable/puppet-iis"                 #TESTING
