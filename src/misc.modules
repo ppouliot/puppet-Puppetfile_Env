@@ -27,4 +27,5 @@ mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_dom
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION #WINDOWS
 # Zack/R10k
 mod 'r10k',                      :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
+# NFS Server Module
 mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
