@@ -1,6 +1,6 @@
 # Warning: This file is managed by puppet.
 # 
-# Please look at the Puppetfile-cambridge module and files for information
+# Please look at the http://github.com/ppouliot/puppet-Puppetfile_Env  for information
 #
 #
 # This Logic was provided by bodepd
@@ -79,7 +79,7 @@ mod 'galera',                    :git => "#{base_url}/michaeltchapman/puppet-gal
 mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION #WINDOWS
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION #WINDOWS
 mod 'r10k',                      :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
-mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs/" #PRODUCTION
+mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
