@@ -6,6 +6,7 @@
 baseurl_https = 'https://github.com'
 baseurl_git = 'git://github.com'
 
+git pull  
 echo -n "saving changes upstream"
 git add bin src README.md LICENSE
 git commit -m "Catching changes to ./bin ./src README.md and LICENSE"
