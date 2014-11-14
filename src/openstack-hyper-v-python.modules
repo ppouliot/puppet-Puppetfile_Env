@@ -6,7 +6,7 @@
 # mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
 ##
 
-mod 'quartermaster',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-ipam" #TESTING
+mod 'quartermaster',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-quartermaster" #TESTING
 mod 'nasm',                         :git => "#{ssh_url}/openstack-hyper-v-python/puppet-nasm" #TESTING
 mod 'mysql_connector_c_windows',    :git => "#{ssh_url}/openstack-hyper-v-python/puppet-mysql_connector_c_windows" #TESTING
 mod 'mysql_windows',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-mysql_windows" #TESTING
