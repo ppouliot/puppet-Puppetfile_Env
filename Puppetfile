@@ -65,3 +65,4 @@ mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DE
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
 mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
+mod 'tftp',          :git => "#{base_url}/ppouliot/puppetlabs-quartermaster" #DEVELOPMENT
