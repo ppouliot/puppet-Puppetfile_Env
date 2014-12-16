@@ -28,4 +28,7 @@ mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_mem
 # Zack/R10k
 mod 'r10k',                      :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
 # NFS Server Module
-mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
+
+# This one is currently not passing Travis CI Testing
+#mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
+mod 'nfs',                       :git => "#{base_url}/ghoneycut/puppet-module-nfs" #PRODUCTION
