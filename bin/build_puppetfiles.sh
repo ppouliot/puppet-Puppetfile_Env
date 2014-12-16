@@ -3,8 +3,8 @@
 # This validates the formatting of the Puppetfile file
 #
 
-baseurl_https = 'https://github.com'
-baseurl_git = 'git://github.com'
+#baseurl_https = 'https://github.com'
+#baseurl_git = 'git://github.com'
 
 git pull  
 echo -n "saving changes upstream"
