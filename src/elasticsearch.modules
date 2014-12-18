@@ -1,0 +1,2 @@
+mod 'elasticsearch',   :git => "#{base_url}/elasticsearch/puppet-elasticsearch" #APPROVED
+mod 'logstash',        :git => "#{base_url}/elasticsearch/puppet-logstash"      #PRODUCTION
