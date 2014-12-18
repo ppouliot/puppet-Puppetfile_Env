@@ -61,6 +61,7 @@ branch_name  = 'origin/havana'
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
+mod 'logstash',        :git => "#{base_url}/elasticsearch/puppet-logstash"      #PRODUCTION
 mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube"  #PRODUCTION
 mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven"      #PRODUCTION
 mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen" #PRODUCTION
@@ -115,7 +116,7 @@ mod 'rsync',           :git => "#{base_url}/puppetlabs/puppetlabs-rsync",       
 mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",            :ref => 'master' #PRODUCTION
 mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :ref => 'master' #PRODUCTION
 mod 'xinetd',          :git => "#{base_url}/puppetlabs/puppetlabs-xinetd",          :ref => 'master' #PRODUCTION
-mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",          :ref => 'master' #PRODUCTION
+mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",             :ref => 'master' #PRODUCTION
 mod 'php',       :git => "#{base_url}/saz/puppet-php" #PRODUCTION
 mod 'sudu',      :git => "#{base_url}/saz/puppet-sudo" #PRODUCTION
 mod 'ssh',       :git => "#{base_url}/saz/puppet-ssh" #PRODUCTION
