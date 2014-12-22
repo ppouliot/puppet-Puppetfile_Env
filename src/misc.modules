@@ -31,4 +31,4 @@ mod 'r10k',                      :git => "#{base_url}/acidprime/r10k" #PRODUCTIO
 
 # This one is currently not passing Travis CI Testing
 #mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
-mod 'nfs',                       :git => "#{base_url}/ghoneycut/puppet-module-nfs" #PRODUCTION
+mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
