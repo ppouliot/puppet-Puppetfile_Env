@@ -68,6 +68,7 @@ mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen" #PRODUCTIO
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
+mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey" #PRODUCTION
