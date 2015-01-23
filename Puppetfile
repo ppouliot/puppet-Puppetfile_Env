@@ -118,6 +118,11 @@ mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",        
 mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :ref => 'master' #PRODUCTION
 mod 'xinetd',          :git => "#{base_url}/puppetlabs/puppetlabs-xinetd",          :ref => 'master' #PRODUCTION
 mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",             :ref => 'master' #PRODUCTION
+mod 'network', :git => "#{base_url}/razorsedge/puppet-network #PRODUCTION
+mod 'snmp',    :git => "#{base_url}/razorsedge/puppet-snmp"   #PRODUCTION
+mod 'hp_spp',  :git => "#{base_url}/razorsedge/puppet-sudo"   #PRODUCTION
+mod 'hp_mcp',  :git => "#{base_url}/razorsedge/puppet-hp_mcp" #PRODUCTION
+mod 'psp',     :git => "#{base_url}/razorsedge/puppet-psp"    #PRODUCTION
 mod 'php',       :git => "#{base_url}/saz/puppet-php" #PRODUCTION
 mod 'sudu',      :git => "#{base_url}/saz/puppet-sudo" #PRODUCTION
 mod 'ssh',       :git => "#{base_url}/saz/puppet-ssh" #PRODUCTION
