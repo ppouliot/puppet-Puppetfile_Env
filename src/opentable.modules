@@ -10,4 +10,4 @@ mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"      
 mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
 mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
 mod 'snmpinformant',       :git => "#{base_url}/opentable/puppet-snmpinformant"       #TESTING #WINDOWS
-mod 'windows-service-installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
+mod 'windows_service_installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
