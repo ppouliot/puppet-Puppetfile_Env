@@ -1,0 +1,6 @@
+mod 'network', :git => "#{base_url}/razorsedge/puppet-network #PRODUCTION
+# HP Firmware Updating
+mod 'snmp',    :git => "#{base_url}/razorsedge/puppet-snmp"   #PRODUCTION
+mod 'hp_spp',  :git => "#{base_url}/razorsedge/puppet-sudo"   #PRODUCTION
+mod 'hp_mcp',  :git => "#{base_url}/razorsedge/puppet-hp_mcp" #PRODUCTION
+mod 'psp',     :git => "#{base_url}/razorsedge/puppet-psp"    #PRODUCTION
