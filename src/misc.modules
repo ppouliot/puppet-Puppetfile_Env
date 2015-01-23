@@ -9,6 +9,7 @@
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
+mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" #PRODUCTION
 # Using upstream 
 # Moving to Development Branch in OpenStack Hyper-V until we finish centos support
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
