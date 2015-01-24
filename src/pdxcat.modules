@@ -1,0 +1,2 @@
+mod 'collectd', :git => "#{base_url}/pdxcat/puppet-module-collectd" #APPROVED
+mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs" #PRODUCTION
