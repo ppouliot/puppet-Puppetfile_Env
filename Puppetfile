@@ -67,8 +67,6 @@ mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven"      #PRODUCTIO
 mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen" #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
-mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
-mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey" #PRODUCTION
@@ -148,5 +146,8 @@ mod 'swift',             :git => "#{openstack_repo_prefix}-swift",              
 mod 'tempest',           :git => "#{openstack_repo_prefix}-tempest",            :ref => openstack_module_branch #PRODUCTION
 mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              :ref => openstack_module_branch #PRODUCTION
 mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
+mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
+mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" #PRODUCTION
+mod 'samba',        :git => "#{base_url}/thias/puppet-samba"   #PRODUCTION
 mod 'pkgng', :git => "#{base_url}/xaque208/puppet-pkgng" #PRODUCTION #FREEBSD
 mod 'bsd',   :git => "#{base_url}/xaque208/puppet-bsd"   #PRODUCTION #FREEBSD
