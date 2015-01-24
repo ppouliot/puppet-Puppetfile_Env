@@ -104,6 +104,7 @@ mod 'iphawk',              :git => "#{ssh_url}/openstack-hyper-v/puppet-iphawk" 
 mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #PRODUCTION
 mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsman" #PRODUCTION
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
+mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs" #PRODUCTION
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :ref => 'master' #PRODUCTION
