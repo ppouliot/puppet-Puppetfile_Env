@@ -32,7 +32,14 @@ apt-get update -y && apt-get install -y --force-yes openssh-server puppet ruby r
 echo -n "- Installing R10K"
 gem install r10k
 gem install hiera-eyaml
-cd /etc/puppet/secure && eyaml createkeys 
+cd /etc/puppet/secure 
+eyaml createkeys 
+
+chown -R puppet:puppet /etc/puppet/secure/keys
+chmod -R 0500 /etc/puppet/secure/keys
+chmod 0400 /etc/puppet/secure/keys/*.pem
+
+
 
 echo -n "- Installing Puppetlabs Supported and Endorsed Modules to BaseModulePath"
 cd /etc/puppet && r10k --verbose DEBUG puppetfile install
