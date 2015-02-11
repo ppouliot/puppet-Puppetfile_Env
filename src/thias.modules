@@ -1,3 +1,3 @@
 mod 'quagga',        :git => "#{base_url}/thias/puppet-quagga" #PRODUCTION
-mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" #PRODUCTION
-mod 'samba',        :git => "#{base_url}/thias/puppet-samba"   #PRODUCTION
+mod 'squid3',        :git => "#{base_url}/thias/puppet-squid3" :tag => '0.2.3' #PRODUCTION
+mod 'samba',        :git => "#{base_url}/thias/puppet-samba"   :tag => '0.1.5' #PRODUCTION
