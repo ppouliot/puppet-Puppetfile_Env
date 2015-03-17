@@ -9,11 +9,6 @@
 class { 'r10k':
   version           => latest,
   sources           => {
-    'puppet_environments' => {
-      'remote'  => 'https://github.com/ppouliot/puppet-environments.git',
-      'basedir' => "${::settings::confdir}/environments",
-      'prefix'  => false,
-    },
     'puppetfiles' => {
       'remote'  => 'https://github.com/ppouliot/puppet-Puppetfile_Env.git',
       'basedir' => "${::settings::confdir}/environments",
