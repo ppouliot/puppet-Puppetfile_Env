@@ -63,6 +63,7 @@ openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #DEVELOPMENT
 mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DEVELOPMENT
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
+mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT
 mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'squid3', :git => "#{base_url}/ppouliot/puppet-squid3"#DEVELOPMENT
