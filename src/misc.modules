@@ -30,5 +30,6 @@ mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera" #PRODUCTION #SUPPO
 # NFS Server Module
 
 # This one is currently not passing Travis CI Testing
+mod 'dsc',                       :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
