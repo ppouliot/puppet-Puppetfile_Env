@@ -80,6 +80,7 @@ mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_dom
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION #WINDOWS
 mod 'r10k',         :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
 mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera" #PRODUCTION #SUPPORTED
+mod 'dsc',                       :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
