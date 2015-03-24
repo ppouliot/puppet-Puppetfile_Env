@@ -94,7 +94,6 @@ mod 'jenkins_job_builder', :git => "#{base_url}/opentable/puppet-jenkins_job_bui
 mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"            #TESTING
 mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
 mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
-mod 'snmpinformant',       :git => "#{base_url}/opentable/puppet-snmpinformant"       #TESTING #WINDOWS
 mod 'windows_service_installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
 mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING #WINDOWS
 mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING #WINDOWS
