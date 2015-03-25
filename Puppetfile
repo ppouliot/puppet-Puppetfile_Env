@@ -83,6 +83,7 @@ mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera" #PRODUCTION #SUPPO
 mod 'dsc',                       :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
+mod 'jenkins_security',           :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
