@@ -32,3 +32,4 @@ mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera" #PRODUCTION #SUPPO
 # This one is currently not passing Travis CI Testing
 mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
+mod 'jenkins_security',           :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
