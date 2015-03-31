@@ -35,3 +35,4 @@ mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security',           :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
 mod 'augeas',                     :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
+mod 'gerrit',                     :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
