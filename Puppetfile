@@ -85,6 +85,7 @@ mod 'nfs',                       :git => "#{base_url}/haraldsk/puppet-module-nfs
 #mod 'nfs',                       :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security',           :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
 mod 'augeas',                     :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
+mod 'gerrit',                     :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
