@@ -86,6 +86,7 @@ mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUC
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
 mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
+mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-RC1' #PRODUCTION   
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
@@ -126,7 +127,7 @@ mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",        
 mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :ref => 'master' #PRODUCTION
 mod 'xinetd',          :git => "#{base_url}/puppetlabs/puppetlabs-xinetd",          :ref => 'master' #PRODUCTION
 mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",             :ref => 'master' #PRODUCTION
-mod 'network', :git => "#{base_url}/razorsedge/puppet-network" #PRODUCTION
+#mod 'network', :git => "#{base_url}/razorsedge/puppet-network" #PRODUCTION
 mod 'snmp',    :git => "#{base_url}/razorsedge/puppet-snmp"    #PRODUCTION
 mod 'hp_spp',  :git => "#{base_url}/razorsedge/puppet-hp_spp"  #PRODUCTION
 mod 'hp_mcp',  :git => "#{base_url}/razorsedge/puppet-hp_mcp"  #PRODUCTION
