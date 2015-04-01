@@ -21,6 +21,9 @@ git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b production /tmp/p
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b staging /tmp/puppetfile_env/staging
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b testing /tmp/puppetfile_env/testing
 git clone https://github.com/ppouliot/puppet-Puppetfile_Env -b development /tmp/puppetfile_env/development
+
+echo -n "removing /tmp/puppet-etc_puppet working dir and cloning a new one on from the git repo"
+rm -rf /tmp/puppet-etc-puppet
 git clone https://github.com/ppouliot/puppet-etc_puppet /tmp/puppet-etc_puppet
 
 echo -n "generating the base puppetfile in the master branch"
