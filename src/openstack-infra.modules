@@ -1,0 +1,10 @@
+##### openstack-infra modules #####
+
+##
+# Example Usage of the variable
+# repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+# mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
+##
+
+mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
+mod 'cgit',    :git => "#{base_url}/openstack-infra/puppet-cgit"   #PRODUCTION
