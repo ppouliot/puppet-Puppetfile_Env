@@ -1,4 +1,5 @@
-mod 'network', :git => "#{base_url}/razorsedge/puppet-network" #PRODUCTION
+# Depreciating Network in Favor of puppetcommunity/puppet-network
+#mod 'network', :git => "#{base_url}/razorsedge/puppet-network" #PRODUCTION
 mod 'snmp',    :git => "#{base_url}/razorsedge/puppet-snmp"    #PRODUCTION
 mod 'hp_spp',  :git => "#{base_url}/razorsedge/puppet-hp_spp"  #PRODUCTION
 mod 'hp_mcp',  :git => "#{base_url}/razorsedge/puppet-hp_mcp"  #PRODUCTION
