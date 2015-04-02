@@ -87,6 +87,7 @@ mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #
 mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
+mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
