@@ -38,3 +38,4 @@ mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag =>
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
+mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION

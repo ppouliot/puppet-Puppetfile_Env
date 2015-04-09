@@ -6,6 +6,6 @@
 # mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
 ##
 
-mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
+#mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
 mod 'cgit',    :git => "#{base_url}/openstack-infra/puppet-cgit"   #PRODUCTION
 mod 'jeepyb',  :git => "#{base_url}/openstack-infra/puppet-jeepyb"   #PRODUCTION
