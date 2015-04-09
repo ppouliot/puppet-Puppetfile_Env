@@ -88,6 +88,7 @@ mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag =>
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
+mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
@@ -111,7 +112,7 @@ mod 'iphawk',              :git => "#{ssh_url}/openstack-hyper-v/puppet-iphawk" 
 mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #PRODUCTION
 mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsman" #PRODUCTION
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
-mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
+#mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
 mod 'cgit',    :git => "#{base_url}/openstack-infra/puppet-cgit"   #PRODUCTION
 mod 'jeepyb',  :git => "#{base_url}/openstack-infra/puppet-jeepyb"   #PRODUCTION
 mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs" #PRODUCTION
