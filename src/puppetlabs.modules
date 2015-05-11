@@ -5,7 +5,7 @@ puppetlabs_repo_prefix = "#{base_url}/#{puppetlabs_module_account}/puppetlabs"
 #mod 'mymodule', :git => "#{puppetlabs_repo_prefix}-mymodule", :ref => puppetlabs_module_branch
 
 # Puppetlabs Offically Supported Modules and Appropriate Version
-mod 'stdlib',          :git => "#{base_url}/puppetlabs/puppetlabs-stdlib",          :tag => '4.6.0`' #SUPPORTED
+mod 'stdlib',          :git => "#{base_url}/puppetlabs/puppetlabs-stdlib",          :tag => '4.6.0' #SUPPORTED
 mod 'vcsrepo',         :git => "#{base_url}/puppetlabs/puppetlabs-vcsrepo",         :tag => '1.2.0' #SUPPORTED
 mod 'concat',          :git => "#{base_url}/puppetlabs/puppetlabs-concat",          :tag => '1.2.1' #SUPPORTED
 mod 'apt',             :git => "#{base_url}/puppetlabs/puppetlabs-apt",             :tag => '2.0.1' #SUPPORTED
