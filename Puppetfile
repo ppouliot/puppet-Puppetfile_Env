@@ -68,5 +68,6 @@ mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'squid3', :git => "#{base_url}/ppouliot/puppet-squid3"#DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
+mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
 mod 'tftp',          :git => "#{base_url}/ppouliot/puppetlabs-tftp" #DEVELOPMENT
 #mod 'nfs',          :git => "#{base_url}/ppouliot/puppet-module-nfs" #DEVELOPMENT
