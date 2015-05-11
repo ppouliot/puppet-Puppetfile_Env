@@ -72,14 +72,12 @@ mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '0.5.1'  #PRODUCTION #WINDOWS
 mod 'windows-path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION
-mod 'python',        :git => "#{base_url}/stankevich/puppet-python" #PRODUCTION
 mod 'sysctl',        :git => "#{base_url}/duritong/puppet-sysctl" #PRODUCTION
 mod 'puppi',         :git => "#{base_url}/example42/puppi" #PRODUCTION
 mod 'perl',                      :git => "#{base_url}/example42/puppet-perl" #PRODUCTION
 mod 'galera',                    :git => "#{base_url}/michaeltchapman/puppet-galera" #PRODUCTION
 mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION #WINDOWS
 mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION #WINDOWS
-mod 'r10k',         :git => "#{base_url}/acidprime/r10k" #PRODUCTION #SUPPORTED
 mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera" #PRODUCTION #SUPPORTED
 mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
