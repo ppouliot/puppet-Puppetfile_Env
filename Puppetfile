@@ -119,6 +119,7 @@ mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION 
 mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
+mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
 mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :ref => 'master' #PRODUCTION
 mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :ref => 'master' #PRODUCTION
 mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :ref => 'master' #PRODUCTION
