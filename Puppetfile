@@ -66,7 +66,7 @@ mod 'jenkinstracking', :git => "#{base_url}/jenkinsci/puppet-jenkinstracking" #P
 mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube"  #PRODUCTION
 mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven"      #PRODUCTION
 mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen" #PRODUCTION
-mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
+mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.3.1' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
