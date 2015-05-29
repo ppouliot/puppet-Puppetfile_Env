@@ -6,7 +6,7 @@
 # mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
 ##
 
-mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :ref => 'master' #PRODUCTION
+mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.3.1' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
 # Using upstream 
 # Moving to Development Branch in OpenStack Hyper-V until we finish centos support
