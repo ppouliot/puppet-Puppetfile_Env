@@ -1,3 +1,4 @@
 mod 'collectd', :git => "#{base_url}/pdxcat/puppet-module-collectd",   :tag => 'v3.3.0' #APPROVED
-mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs",     :ref => 'master' #PRODUCTION
+mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs",     :tag => 'v1.0.1' #PRODUCTION
+#,     :ref => 'master' #PRODUCTION
 #,     :tag => 'v1.0.2' #PRODUCTION
