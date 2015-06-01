@@ -70,7 +70,7 @@ git push origin master
 
 
 cd /tmp/puppetfile_env/master
-git add ./Puppetfile.base
+git add ./Puppetfile.*
 git commit -m "adding latest Puppetfile.base to the Master Branch"
 git push origin master
 
