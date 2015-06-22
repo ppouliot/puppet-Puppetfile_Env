@@ -73,3 +73,28 @@ mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TEST
 mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING #WINDOWS
 mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING #WINDOWS
 mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #TESTING #WINDOWS
+mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '0.5.1'  #PRODUCTION #WINDOWS
+mod 'windows_domain_controller', :git => "#{base_url}/martezr/puppet-windows_domain_controller" #PRODUCTION #WINDOWS
+mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_membership" #PRODUCTION #WINDOWS
+mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
+#mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING #WINDOWS
+mod 'windowsfeature',      :git => "#{base_url}/opentable/puppet-windowsfeature"      #TESTING #WINDOWS
+mod 'sslcert',             :git => "#{base_url}/opentable/puppet-sslcert"             #TESTING #WINDOWS
+mod 'iis_rewrite',         :git => "#{base_url}/opentable/puppet-iis_rewrite"         #TESTING #WINDOWS
+mod 'graphite_powershell', :git => "#{base_url}/opentable/puppet-graphite_powershell" #TESTING #WINDOWS
+mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
+mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
+mod 'registry',        :git => "#{base_url}/puppetlabs/puppetlabs-registry",        :tag => '1.1.0' #SUPPORTED #WINDOWS
+mod 'powershell',      :git => "#{base_url}/puppetlabs/puppetlabs-powershell",      :tag => '1.0.4' #SUPPORTED #WINDOWS
+mod 'reboot',          :git => "#{base_url}/puppetlabs/puppetlabs-reboot",          :tag => '1.0.0' #SUPPORTED #WINDOWS
+mod 'acl',             :git => "#{base_url}/puppetlabs/puppetlabs-acl",             :tag => '1.1.0' #SUPPORTED #WINDOWS
+#mod 'f5',              :git => "#{base_url}/puppetlabs/puppetlabs-f5",              :tag => '1.0.0' #SUPPORTED #WINDOWS
+#mod 'sqlserver',       :git => "#{base_url}/puppetlabs/puppetlabs-sqlserver",       :tag => '1.0.0' #SUPPORTED #WINDOWS
+mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING #WINDOWS
+mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING #WINDOWS
+mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #TESTING #WINDOWS
+mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #TESTING #WINDOWS
+mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TESTING #WINDOWS
+mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING #WINDOWS
+mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING #WINDOWS
+mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #TESTING #WINDOWS
