@@ -114,7 +114,8 @@ mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_se
 #mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
 mod 'cgit',    :git => "#{base_url}/openstack-infra/puppet-cgit"   #PRODUCTION
 mod 'jeepyb',  :git => "#{base_url}/openstack-infra/puppet-jeepyb"   #PRODUCTION
-mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs",     :ref => 'master' #PRODUCTION
+mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs",     :tag => 'v1.0.1' #PRODUCTION
+#,     :ref => 'master' #PRODUCTION
 #,     :tag => 'v1.0.2' #PRODUCTION
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
 mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT
