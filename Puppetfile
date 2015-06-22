@@ -122,16 +122,16 @@ mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
 mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
-mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :ref => 'master' #PRODUCTION
-mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :ref => 'master' #PRODUCTION
-mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :ref => 'master' #PRODUCTION
-mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :ref => 'master' #PRODUCTION
-mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :ref => 'master' #PRODUCTION
-mod 'rsync',           :git => "#{base_url}/puppetlabs/puppetlabs-rsync",           :ref => 'master' #PRODUCTION
-mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",            :ref => 'master' #PRODUCTION
-mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :ref => 'master' #PRODUCTION
-mod 'xinetd',          :git => "#{base_url}/puppetlabs/puppetlabs-xinetd",          :ref => 'master' #PRODUCTION
-mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",             :ref => 'master' #PRODUCTION
+mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.3.0' #PRODUCTION
+mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.5.0' #PRODUCTION
+mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.2' #PRODUCTION
+mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '4.2.1' #PRODUCTION
+mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :tag => '5.2.2' #PRODUCTION
+mod 'rsync',           :git => "#{base_url}/puppetlabs/puppetlabs-rsync",           :tag => '0.4.0' #PRODUCTION
+mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",            :tag => '0.4.0' #PRODUCTION
+mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :tag => '0.2.3' #PRODUCTION
+mod 'xinetd',          :git => "#{base_url}/puppetlabs/puppetlabs-xinetd",          :tag => '1.5.0' #PRODUCTION
+mod 'git',             :git => "#{base_url}/puppetlabs/puppetlabs-git",             :tag => '0.4.0' #PRODUCTION
 #mod 'network', :git => "#{base_url}/razorsedge/puppet-network" #PRODUCTION
 mod 'snmp',    :git => "#{base_url}/razorsedge/puppet-snmp"    #PRODUCTION
 mod 'hp_spp',  :git => "#{base_url}/razorsedge/puppet-hp_spp"  #PRODUCTION
