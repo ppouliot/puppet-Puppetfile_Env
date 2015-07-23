@@ -111,6 +111,7 @@ mod 'iphawk',              :git => "#{ssh_url}/openstack-hyper-v/puppet-iphawk" 
 mod 'osticket',            :git => "#{ssh_url}/openstack-hyper-v/puppet-osticket" #PRODUCTION
 mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsman" #PRODUCTION
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
+mod 'sensu_client_plugins', :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_client_plugins" #PRODUCTION
 #mod 'gerrit',  :git => "#{base_url}/openstack-infra/puppet-gerrit" #PRODUCTION
 mod 'cgit',    :git => "#{base_url}/openstack-infra/puppet-cgit"   #PRODUCTION
 mod 'jeepyb',  :git => "#{base_url}/openstack-infra/puppet-jeepyb"   #PRODUCTION
