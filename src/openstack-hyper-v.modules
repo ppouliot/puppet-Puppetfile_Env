@@ -36,3 +36,4 @@ mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsma
 # Development Branch while adding centos support
 mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DEVELOPMENT
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
+mod 'sensu_client_plugins', :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_client_plugins" #PRODUCTION
