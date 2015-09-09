@@ -61,9 +61,9 @@ branch_name  = 'origin/havana'
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
 mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
-mod 'logstash',        :git => "#{base_url}/elasticsearch/puppet-logstash",      :tag => '0.5.1' #PRODUCTION
-mod 'logstash-reporter',        :git => "#{base_url}/elasticsearch/puppet-logstash-reporter",      :tag => '0.1.0' #PRODUCTION
-mod 'logstashforwarder',        :git => "#{base_url}/elasticsearch/puppet-logstashforwarder",      :tag => '0.1.1' #PRODUCTION
+mod 'logstash',          :git => "#{base_url}/elastic/puppet-logstash",      :tag => '0.5.1' #PRODUCTION
+mod 'logstash_reporter', :git => "#{base_url}/elastic/puppet-logstash-reporter",      :tag => '0.1.0' #PRODUCTION
+mod 'logstashforwarder', :git => "#{base_url}/elastic/puppet-logstashforwarder",      :tag => '0.1.1' #PRODUCTION
 mod 'jenkinstracking', :git => "#{base_url}/jenkinsci/puppet-jenkinstracking" #PRODUCTION
 mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube", :tag => 'v2.6.4'  #PRODUCTION
 mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven", :tag => 'v1.4.0'  #PRODUCTION
@@ -133,7 +133,7 @@ mod 'collectd',                   :git => "#{base_url}/puppet-community/puppet-c
 mod 'mcollective',                :git => "#{base_url}/puppet-community/puppet-mcollective",                :tag => 'v2.1.1' #PRODUCTION
 mod 'jenkins_job_builder',        :git => "#{base_url}/puppet-community/puppet-jenkins_job_builder",        :tag => 'v1.1.1' #PRODUCTION
 mod 'puppetboard',                :git => "#{base_url}/puppet-community/puppet-module-puppetboard",         :tag => '2.7.3' #PRODUCTION
-mod 'amanda',                     :git => "#{base_url}/puppet-community/puppet-module-amanda",              :tag => '1.0.2' #PRODUCTION
+mod 'amanda',                     :git => "#{base_url}/puppet-community/puppet-module-amanda",              :tag => 'v1.0.2' #PRODUCTION
 mod 'network',                    :git => "#{base_url}/puppet-community/puppet-network",                    :tag => '0.5.0-rc1' #PRODUCTION
 mod 'nodejs',                     :git => "#{base_url}/puppet-community/puppet-nodejs",                     :tag => '1.2.0' #PRODUCTION
 mod 'jira',                       :git => "#{base_url}/puppet-community/puppet-jira",                       :tag => '1.3.0' #PRODUCTION
