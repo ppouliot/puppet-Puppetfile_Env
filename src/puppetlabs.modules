@@ -29,7 +29,7 @@ mod 'tagmail',         :git => "#{base_url}/puppetlabs/puppetlabs-tagmail",     
 mod 'docker_platform', :git => "#{base_url}/puppetlabs/puppetlabs-docker_platform", :tag => '1.1.0' #SUPPORTED
 mod 'puppet_agent',    :git => "#{base_url}/puppetlabs/puppetlabs-puppet_agent",    :tag => '1.0.0' #SUPPORTED
 mod 'wsus_client',     :git => "#{base_url}/puppetlabs/puppetlabs-wsus_client",     :tag => '1.0.0' #SUPPORTED
-mod 'ciscopuppet',     :git => "#{base_url}/cisco/cisco-network-puppet-module",     :tag => 'v1.0.0' #SUPPORTED
+#mod 'ciscopuppet',     :git => "#{base_url}/cisco/cisco-network-puppet-module",     :tag => 'v1.0.0' #SUPPORTED
 # Require License
 #mod 'f5',              :git => "#{base_url}/puppetlabs/puppetlabs-f5",              :tag => '1.0.0' #SUPPORTED #WINDOWS
 #mod 'sqlserver',       :git => "#{base_url}/puppetlabs/puppetlabs-sqlserver",       :tag => '1.0.0' #SUPPORTED #WINDOWS

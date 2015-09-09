@@ -1,4 +1,4 @@
-mod 'elasticsearch',   :git => "#{base_url}/elasticsearch/puppet-elasticsearch", :tag => '0.9.9' #APPROVED
-mod 'logstash',        :git => "#{base_url}/elasticsearch/puppet-logstash",      :tag => '0.5.1' #PRODUCTION
-mod 'logstash-reporter',        :git => "#{base_url}/elasticsearch/puppet-logstash-reporter",      :tag => '0.1.0' #PRODUCTION
-mod 'logstashforwarder',        :git => "#{base_url}/elasticsearch/puppet-logstashforwarder",      :tag => '0.1.1' #PRODUCTION
+mod 'elasticsearch',     :git => "#{base_url}/elastic/puppet-elasticsearch", :tag => '0.9.9' #APPROVED
+mod 'logstash',          :git => "#{base_url}/elastic/puppet-logstash",      :tag => '0.5.1' #PRODUCTION
+mod 'logstash_reporter', :git => "#{base_url}/elastic/puppet-logstash-reporter",      :tag => '0.1.0' #PRODUCTION
+mod 'logstashforwarder', :git => "#{base_url}/elastic/puppet-logstashforwarder",      :tag => '0.1.1' #PRODUCTION
