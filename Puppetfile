@@ -159,17 +159,6 @@ mod 'windows_power',              :git => "#{base_url}/puppet-community/puppet-w
 mod 'dotnet',                     :git => "#{base_url}/puppet-community/puppet-dotnet",                     :tag => 'v1.0.1'  #PRODUCTION #WINDOWS
 mod 'healthcheck',                :git => "#{base_url}/puppet-community/puppet-healthcheck"                                   #PRODUCTION
 mod 'nagios_providers',           :git => "#{base_url}/puppet-community/puppet-nagios_providers"                              #PRODUCTION
-mod 'lint-unquoted_string-check', :git => "#{base_url}/puppet-community/puppet-lint-unquoted_string-check", :tag => '0.2.5' #PRODUCTION
-mod 'lint-classes_and_types_beginning_with_digits-check', :git => "#{base_url}/puppet-community/puppet-lint-classes_and_types_beginning_with_digits-check" #PRODUCTION
-mod 'lint-modulesync_configs', :git => "#{base_url}/puppet-community/puppet-lint-modulesync_configs" #PRODUCTION
-mod 'lint-version_comparison-check', :git => "#{base_url}/puppet-community/puppet-lint-version_comparison-check" #PRODUCTION
-mod 'lint-undef_in_function-check', :git => "#{base_url}/puppet-community/puppet-lint-undef_in_function-check" #PRODUCTION
-mod 'lint-trailing_comma-check', :git => "#{base_url}/puppet-community/puppet-lint-trailing_comma-check" #PRODUCTION
-mod 'lint-spaceship_operator_without_tag-check', :git => "#{base_url}/puppet-community/puppet-lint-spaceship_operator_without_tag-check" #PRODUCTION
-mod 'lint-leading_zero-check', :git => "#{base_url}/puppet-community/puppet-lint-leading_zero-check" #PRODUCTION
-mod 'lint-file_ensure-check', :git => "#{base_url}/puppet-community/puppet-lint-file_ensure-check" #PRODUCTION
-mod 'lint-empty_string-check', :git => "#{base_url}/puppet-community/puppet-lint-empty_string-check" #PRODUCTION
-mod 'lint-absolute_classname-check', :git => "#{base_url}/puppet-community/puppet-lint-absolute_classmate-check" #PRODUCTION
 mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.3.0' #PRODUCTION
 mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.5.0' #PRODUCTION
 mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.2' #PRODUCTION
