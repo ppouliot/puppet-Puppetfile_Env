@@ -1,4 +1,4 @@
 mod 'wget',        :git => "#{base_url}/maestrodev/puppet-wget", :tag => 'v1.7.0'  #APPROVED 
 mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube", :tag => 'v2.6.4'  #PRODUCTION
-mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven", :tag=> 'v, :tag => 'v1.4.0'  #PRODUCTION
+mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven", :tag => 'v1.4.0'  #PRODUCTION
 mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen", :tag => 'v1.3.0' #PRODUCTION
