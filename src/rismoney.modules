@@ -1,8 +1,8 @@
-mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #TESTING #WINDOWS
-mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #TESTING #WINDOWS
-mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #TESTING #WINDOWS
-mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #TESTING #WINDOWS
-mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #TESTING #WINDOWS
-mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #TESTING #WINDOWS
-mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #TESTING #WINDOWS
-mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #TESTING #WINDOWS
+mod 'win-cis',           :git => "#{base_url}/rismoney/puppet-win-cis" #PRODUCTION #WINDOWS
+mod 'baremetal-windows', :git => "#{base_url}/rismoney/puppet-baremetal-windows" #PRODUCTION #WINDOWS
+mod 'wsus',              :git => "#{base_url}/rismoney/puppet-wsus" #PRODUCTION #WINDOWS
+mod 'windowsnetwork',    :git => "#{base_url}/rismoney/puppet-windowsnetwork" #PRODUCTION #WINDOWS
+mod 'winclusters',       :git => "#{base_url}/rismoney/puppet-winclusters" #PRODUCTION #WINDOWS
+mod 'winsvc',            :git => "#{base_url}/rismoney/puppet-winsvc" #PRODUCTION #WINDOWS
+#mod 'iis',               :git => "#{base_url}/rismoney/puppet-iis" #PRODUCTION #WINDOWS
+mod 'oneget',            :git => "#{base_url}/rismoney/puppet-oneget" #PRODUCTION #WINDOWS

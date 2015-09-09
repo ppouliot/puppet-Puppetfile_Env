@@ -1,0 +1,44 @@
+mod 'corosync',                   :git => "#{base_url}/puppet-community/puppet-corosync",                   :tag => '0.7.0'  #PRODUCTION
+mod 'unattend_upgrades',          :git => "#{base_url}/puppet-community/puppet-unattended_upgrades",        :tag => '1.0.3'  #PRODUCTION
+mod 'collectd',                   :git => "#{base_url}/puppet-community/puppet-collectd",                   :tag => 'v4.2.0' #PRODUCTION
+mod 'mcollective',                :git => "#{base_url}/puppet-community/puppet-mcollective",                :tag => 'v2.1.1' #PRODUCTION
+mod 'jenkins_job_builder',        :git => "#{base_url}/puppet-community/puppet-jenkins_job_builder",        :tag => 'v1.1.1' #PRODUCTION
+mod 'puppetboard',                :git => "#{base_url}/puppet-community/puppet-module-puppetboard",         :tag => '2.7.3' #PRODUCTION
+mod 'amanda',                     :git => "#{base_url}/puppet-community/puppet-module-amanda",              :tag => '1.0.2' #PRODUCTION
+mod 'network',                    :git => "#{base_url}/puppet-community/puppet-network",                    :tag => '0.5.0-rc1' #PRODUCTION
+mod 'nodejs',                     :git => "#{base_url}/puppet-community/puppet-nodejs",                     :tag => '1.2.0' #PRODUCTION
+mod 'jira',                       :git => "#{base_url}/puppet-community/puppet-jira",                       :tag => '1.3.0' #PRODUCTION
+mod 'rundeck',                    :git => "#{base_url}/puppet-community/puppet-rundeck",                    :tag => 'v1.2.0' #PRODUCTION
+mod 'stash',                      :git => "#{base_url}/puppet-community/puppet-stash",                      :tag => '1.3.0' #PRODUCTION
+mod 'archive',                    :git => "#{base_url}/puppet-community/puppet-archive",                    :tag => '0.3.0' #PRODUCTION
+mod 'alternatives',               :git => "#{base_url}/puppet-community/puppet-alternatives",               :tag => '0.3.0' #PRODUCTION
+mod 'confluence',                 :git => "#{base_url}/puppet-community/puppet-confluence",                 :tag => '2.1.1' #PRODUCTION
+mod 'mysql_java_connector',       :git => "#{base_url}/puppet-community/puppet-mysql_java_connector",       :tag => '1.0.0' #PRODUCTION
+mod 'staging',                    :git => "#{base_url}/puppet-community/puppet-staging",                    :tag => '1.0.4' #PRODUCTION
+mod 'download_file',              :git => "#{base_url}/puppet-community/puppet-download_file",              :tag => 'v1.2.1'  #PRODUCTION
+mod 'iis',                        :git => "#{base_url}/puppet-community/puppet-iis",                        :tag => 'v1.4.1'  #PRODUCTION #WINDOWS
+mod 'windows_firewall',           :git => "#{base_url}/puppet-community/puppet-windows_firewall",           :tag => 'v1.0.0'  #PRODUCTION #WINDOWS
+mod 'msoffice',                   :git => "#{base_url}/puppet-community/puppet-msoffice",                   :tag => 'v1.0.0'  #PRODUCTION #WINDOWS
+mod 'windowsfeature',             :git => "#{base_url}/puppet-community/puppet-windowsfeature",             :tag => 'v1.1.0'  #PRODUCTION #WINDOWS
+mod 'nsclient',                   :git => "#{base_url}/puppet-community/puppet-nsclient",                   :tag => 'v1.3.1'  #PRODUCTION #WINDOWS
+mod 'windows_autoupdate',         :git => "#{base_url}/puppet-community/puppet-windows_autoupdate",         :tag => 'v1.0.1'  #PRODUCTION #WINDOWS
+mod 'windows_eventlog',           :git => "#{base_url}/puppet-community/puppet-windows_eventlog",           :tag => 'v1.0.0'  #PRODUCTION #WINDOWS
+mod 'graphite_powershell',        :git => "#{base_url}/puppet-community/puppet-graphite_powershell",        :tag => 'v1.0.1'  #PRODUCTION #WINDOWS
+mod 'sslcert',                    :git => "#{base_url}/puppet-community/puppet-sslcert",                    :tag => 'v2.1.1'  #PRODUCTION #WINDOWS
+mod 'visualstudio',               :git => "#{base_url}/puppet-community/puppet-visualstudio",               :tag => 'v1.0.0'  #PRODUCTION #WINDOWS
+mod 'windows_power',              :git => "#{base_url}/puppet-community/puppet-windows_power",              :tag => 'v1.0.0'  #PRODUCTION #WINDOWS
+mod 'dotnet',                     :git => "#{base_url}/puppet-community/puppet-dotnet",                     :tag => 'v1.0.1'  #PRODUCTION #WINDOWS
+mod 'healthcheck',                :git => "#{base_url}/puppet-community/puppet-healthcheck"                                   #PRODUCTION
+mod 'nagios_providers',           :git => "#{base_url}/puppet-community/puppet-nagios_providers"                              #PRODUCTION
+
+mod 'lint-unquoted_string-check', :git => "#{base_url}/puppet-community/puppet-lint-unquoted_string-check", :tag => '0.2.5' #PRODUCTION
+mod 'lint-classes_and_types_beginning_with_digits-check', :git => "#{base_url}/puppet-community/puppet-lint-classes_and_types_beginning_with_digits-check" #PRODUCTION
+mod 'lint-modulesync_configs', :git => "#{base_url}/puppet-community/puppet-lint-modulesync_configs" #PRODUCTION
+mod 'lint-version_comparison-check', :git => "#{base_url}/puppet-community/puppet-lint-version_comparison-check" #PRODUCTION
+mod 'lint-undef_in_function-check', :git => "#{base_url}/puppet-community/puppet-lint-undef_in_function-check" #PRODUCTION
+mod 'lint-trailing_comma-check', :git => "#{base_url}/puppet-community/puppet-lint-trailing_comma-check" #PRODUCTION
+mod 'lint-spaceship_operator_without_tag-check', :git => "#{base_url}/puppet-community/puppet-lint-spaceship_operator_without_tag-check" #PRODUCTION
+mod 'lint-leading_zero-check', :git => "#{base_url}/puppet-community/puppet-lint-leading_zero-check" #PRODUCTION
+mod 'lint-file_ensure-check', :git => "#{base_url}/puppet-community/puppet-lint-file_ensure-check" #PRODUCTION
+mod 'lint-empty_string-check', :git => "#{base_url}/puppet-community/puppet-lint-empty_string-check" #PRODUCTION
+mod 'lint-absolute_classname-check', :git => "#{base_url}/puppet-community/puppet-lint-absolute_classmate-check" #PRODUCTION

@@ -1,4 +1,4 @@
-mod 'rsyslog',   :git => "#{base_url}/saz/puppet-rsyslog",  :tag => 'v3.4.0' #APPROVED
+mod 'rsyslog',   :git => "#{base_url}/saz/puppet-rsyslog",  :tag => 'v3.5.1' #APPROVED
 mod 'php',       :git => "#{base_url}/saz/puppet-php" #PRODUCTION
 mod 'sudu',      :git => "#{base_url}/saz/puppet-sudo" #PRODUCTION
 mod 'ssh',       :git => "#{base_url}/saz/puppet-ssh" #PRODUCTION
