@@ -91,8 +91,8 @@ mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitoli
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
 mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION
 mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.0' #PRODUCTION
-mod 'ganglia',      :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.0.0' #PRODUCTION
-mod 'windows_java'      :git => "#{base_url}/cyberious/puppet-windows_java",  :tag => 'v1.0.2' #PRODUCTION #WINDOWS
+mod 'ganglia',          :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.0.0' #PRODUCTION
+mod 'windows_java',     :git => "#{base_url}/cyberious/puppet-windows_java",  :tag => 'v1.0.2' #PRODUCTION #WINDOWS
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
 mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION
