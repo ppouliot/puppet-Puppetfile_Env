@@ -66,7 +66,7 @@ mod 'logstash-reporter',        :git => "#{base_url}/elasticsearch/puppet-logsta
 mod 'logstashforwarder',        :git => "#{base_url}/elasticsearch/puppet-logstashforwarder",      :tag => '0.1.1' #PRODUCTION
 mod 'jenkinstracking', :git => "#{base_url}/jenkinsci/puppet-jenkinstracking" #PRODUCTION
 mod 'sonarqube',   :git => "#{base_url}/maestrodev/puppet-sonarqube", :tag => 'v2.6.4'  #PRODUCTION
-mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven", :tag=> 'v, :tag => 'v1.4.0'  #PRODUCTION
+mod 'maven',       :git => "#{base_url}/maestrodev/puppet-maven", :tag => 'v1.4.0'  #PRODUCTION
 mod 'ssh_keygen',  :git => "#{base_url}/maestrodev/puppet-ssh_keygen", :tag => 'v1.3.0' #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.3.1' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
