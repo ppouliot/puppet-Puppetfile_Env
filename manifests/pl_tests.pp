@@ -1,0 +1,15 @@
+  package {['lint-unquoted_string-check',
+            'lint-classes_and_types_beginning_with_digits-check',
+            'lint-modulesync_configs',
+            'lint-modulesync_configs', 
+            'lint-version_comparison-check',
+            'lint-undef_in_function-check', 
+            'lint-trailing_comma-check', 
+            'lint-spaceship_operator_without_tag-check',
+            'lint-leading_zero-check',
+            'lint-file_ensure-check', 
+            'lint-empty_string-check', 
+            'lint-absolute_classname-check']:
+     ensure   => latest,
+     provider => gem,
+  }
