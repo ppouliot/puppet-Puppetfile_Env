@@ -93,4 +93,4 @@ mod 'altlib',              :git => "#{base_url}/opentable/puppet-altlib"        
 #mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"            #TESTING
 mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
 #mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
-mod 'windows_service_installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
+#mod 'windows_service_installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
