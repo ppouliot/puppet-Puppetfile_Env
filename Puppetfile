@@ -208,7 +208,7 @@ mod 'tempest',           :git => "#{openstack_repo_prefix}-tempest",            
 mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              :ref => openstack_module_branch #PRODUCTION
 mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
 mod 'quagga',  :git => "#{base_url}/thias/puppet-quagga"                  #PRODUCTION
-mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :tag => '0.2.3' #PRODUCTION
+mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PRODUCTION
 mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '0.1.5' #PRODUCTION
 mod 'pkgng', :git => "#{base_url}/xaque208/puppet-pkgng" #PRODUCTION #FREEBSD
 mod 'bsd',   :git => "#{base_url}/xaque208/puppet-bsd"   #PRODUCTION #FREEBSD
