@@ -210,5 +210,6 @@ mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            
 mod 'quagga',  :git => "#{base_url}/thias/puppet-quagga"                  #PRODUCTION
 mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PRODUCTION
 mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '0.1.5' #PRODUCTION
+mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
 mod 'pkgng', :git => "#{base_url}/xaque208/puppet-pkgng" #PRODUCTION #FREEBSD
 mod 'bsd',   :git => "#{base_url}/xaque208/puppet-bsd"   #PRODUCTION #FREEBSD
