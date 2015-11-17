@@ -1,11 +1,3 @@
-#mod 'windowsfeature',      :git => "#{base_url}/opentable/puppet-windowsfeature"      #TESTING #WINDOWS
-#mod 'sslcert',             :git => "#{base_url}/opentable/puppet-sslcert"             #TESTING #WINDOWS
-#mod 'iis',                 :git => "#{base_url}/opentable/puppet-iis"                 #TESTING
 mod 'iis_rewrite',         :git => "#{base_url}/opentable/puppet-iis_rewrite"         #TESTING #WINDOWS
-#mod 'graphite_powershell', :git => "#{base_url}/opentable/puppet-graphite_powershell" #TESTING #WINDOWS
 mod 'altlib',              :git => "#{base_url}/opentable/puppet-altlib"              #TESTING
-#mod 'jenkins_job_builder', :git => "#{base_url}/opentable/puppet-jenkins_job_builder" #TESTING
-#mod 'nsclient',            :git => "#{base_url}/opentable/puppet-nsclient"            #TESTING
 mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS
-#mod 'download_file',       :git => "#{base_url}/opentable/puppet-download_file"       #TESTING #WINDOWS
-mod 'windows_service_installer', :git => "#{base_url}/opentable/puppet-windows-service-installer"  #TESTING
