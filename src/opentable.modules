@@ -1,3 +1,0 @@
-mod 'iis_rewrite',         :git => "#{base_url}/opentable/puppet-iis_rewrite"         #TESTING #WINDOWS
-mod 'altlib',              :git => "#{base_url}/opentable/puppet-altlib"              #TESTING
-mod 'aws_powershell',      :git => "#{base_url}/opentable/puppet-aws_powershell"      #TESTING #WINDOWS

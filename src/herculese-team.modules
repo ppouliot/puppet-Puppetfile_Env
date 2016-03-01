@@ -5,7 +5,7 @@
 
 # Puppetlabs Offically Supported Modules and Appropriate Version
 mod 'augeasproviders',          :git => "#{base_url}/hercules-team/augeasproviders",                :tag => 'v2.1.3' #APPROVED
-mod 'augeasproviders_shellvar',   :git => "#{base_url}/hercules-team/augeasproviders_shellvar",     :tag => '2.2.0' #APPROVED
+mod 'augeasproviders_shellvar',   :git => "#{base_url}/hercules-team/augeasproviders_shellvar",     :tag => '2.2.1' #APPROVED
 mod 'augeasproviders_sysctl',     :git => "#{base_url}/hercules-team/augeasproviders_sysctl",       :tag => '2.0.2' #APPROVED
 mod 'augeasproviders_ssh',        :git => "#{base_url}/hercules-team/augeasproviders_ssh",          :tag => '2.5.0' #APPROVED
 mod 'augeasproviders_pam',        :git => "#{base_url}/hercules-team/augeasproviders_pam",          :tag => '2.1.0' #APPROVED

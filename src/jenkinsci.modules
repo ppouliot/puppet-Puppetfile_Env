@@ -1,2 +1,2 @@
-mod 'jenkins',         :git => "#{base_url}/jenkinsci/puppet-jenkins", :tag => 'v1.4.0'  #APPROVED
+mod 'jenkins',         :git => "#{base_url}/jenkinsci/puppet-jenkins", :tag => 'v1.6.1'  #APPROVED
 mod 'jenkinstracking', :git => "#{base_url}/jenkinsci/puppet-jenkinstracking" #PRODUCTION
