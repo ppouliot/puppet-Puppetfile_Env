@@ -35,19 +35,19 @@ if ENV['repos_to_use']  == 'downstream'
   manifest_branch = 'origin/multi-node'
 else
   # use the upstream modules where they exist
-  branch_name               = 'origin/havana'
+  branch_name               = 'origin/mitaka'
   openstack_module_branch   = 'master'
   openstack_module_account  = 'stackforge'
   puppetlabs_module_account = 'puppetlabs'
   # manifests
   user_name = 'primeministerp'
-  release = 'havana'
+  release = 'mitaka'
   manifest_branch = 'origin/master'
 end
 
 base_url     = "#{git_protocol}://github.com"
 ssh_url      = "#{git_protocol}://github.com"
-branch_name  = 'origin/havana'
+branch_name  = 'origin/mitaka'
 
 ###### Installer Manifests Example ##############
 #mod 'manifests', :git => "#{base_url}/#{user_name}/#{release}-manifests", :ref => "#{manifest_branch}"
