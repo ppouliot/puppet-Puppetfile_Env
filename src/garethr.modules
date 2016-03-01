@@ -1,2 +1,2 @@
-mod 'erlang',        :git => "#{base_url}/garethr/garethr-erlang", :ref => 'v0.3.0' #APPROVED
+mod 'erlang',        :git => "#{base_url}/garethr/garethr-erlang"                   #APPROVED
 mod 'docker',        :git => "#{base_url}/garethr/garethr-docker", :tag => 'v5.1.0' #APPROVED

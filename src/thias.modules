@@ -2,5 +2,5 @@ mod 'quagga',  :git => "#{base_url}/thias/puppet-quagga"                  #PRODU
 mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PRODUCTION
 # Changes for bugs were pushed to master removing tag for now
 # :tag => '0.2.3'
-mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => 1.0.0' #PRODUCTION
+mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODUCTION
 mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
