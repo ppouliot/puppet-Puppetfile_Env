@@ -179,7 +179,7 @@ mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              
 mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
 mod 'quagga',  :git => "#{base_url}/thias/puppet-quagga"                  #PRODUCTION
 mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PRODUCTION
-mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => 1.0.0' #PRODUCTION
+mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODUCTION
 mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
 mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => '0.8.0'  #PRODUCTION
 mod 'unattend_upgrades',          :git => "#{base_url}/voxpupuli/puppet-unattended_upgrades",        :tag => '1.1.1'  #PRODUCTION
