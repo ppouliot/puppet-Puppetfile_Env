@@ -70,8 +70,8 @@ mod 'maven',      :git => "#{base_url}/maestrodev/puppet-maven",      :tag => 'v
 mod 'ant',        :git => "#{base_url}/maestrodev/puppet-ant",        :tag => 'v1.0.5'  #PRODUCTION
 mod 'ssh_keygen', :git => "#{base_url}/maestrodev/puppet-ssh_keygen", :tag => 'v1.3.1' #PRODUCTION
 mod 'test',       :git => "#{base_url}/maestrodev/puppet-test",       :tag => 'v1.0.28' #PRODUCTION
-mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.3.1' #PRODUCTION
-mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
+mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.4.0' #PRODUCTION
+mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn", :tag => '3.0.0' #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.1'  #PRODUCTION #WINDOWS
@@ -87,13 +87,13 @@ mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WI
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',             :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
-mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
+mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 #mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
 mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION
-mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.0' #PRODUCTION
-mod 'ganglia',          :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.0.0' #PRODUCTION
+mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.2' #PRODUCTION @WINDOWS
+mod 'ganglia',          :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.2.0' #PRODUCTION
 mod 'windows_java',     :git => "#{base_url}/cyberious/puppet-windows_java",  :tag => 'v1.0.2' #PRODUCTION #WINDOWS
 mod 'ipam',                :git => "#{ssh_url}/openstack-hyper-v/puppet-ipam" #PRODUCTION
 mod 'redis',               :git => "#{ssh_url}/openstack-hyper-v/puppet-redis" #PRODUCTION
@@ -129,11 +129,11 @@ mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
 mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
-mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.3.0' #PRODUCTION
-mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.5.0' #PRODUCTION
-mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.2' #PRODUCTION
-mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.0.0' #PRODUCTION
-mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :tag => '5.2.3' #PRODUCTION
+mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
+mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.6.0' #PRODUCTION
+mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.3' #PRODUCTION
+mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.1.1' #PRODUCTION
+mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :tag => '5.3.1' #PRODUCTION
 mod 'rsync',           :git => "#{base_url}/puppetlabs/puppetlabs-rsync",           :tag => '0.4.0' #PRODUCTION
 mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",            :tag => '0.4.0' #PRODUCTION
 mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :tag => '0.2.3' #PRODUCTION
