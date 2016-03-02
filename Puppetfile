@@ -83,3 +83,4 @@ mod 'mysql_connector_c_windows',    :git => "#{ssh_url}/openstack-hyper-v-python
 mod 'mysql_windows',                :git => "#{ssh_url}/openstack-hyper-v-python/puppet-mysql_windows" #TESTING
 mod 'svn_windows',                  :git => "#{ssh_url}/openstack-hyper-v-python/puppet-svn_windows" #TESTING
 mod 'swig',                         :git => "#{ssh_url}/openstack-hyper-v-python/puppet-swig" #TESTING
+mod 'archive',                    :git => "#{base_url}/voxpupuli/puppet-archive",                    :tag => 'v0.4.8' #TESTING
