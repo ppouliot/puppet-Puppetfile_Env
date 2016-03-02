@@ -6,8 +6,8 @@
 # mod 'stackforge/openstack', :git => "#{repo_prefix}-openstack", :ref => openstack_module_branch
 ##
 
-mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.3.1' #PRODUCTION
-mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn" #PRODUCTION
+mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.4.0' #PRODUCTION
+mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn", :tag => '3.0.0' #PRODUCTION
 # Using upstream 
 # Moving to Development Branch in OpenStack Hyper-V until we finish centos support
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
@@ -34,11 +34,11 @@ mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WI
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',             :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
-mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.2.0' #PRODUCTION
+mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 #mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
 mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION
-mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.0' #PRODUCTION
-mod 'ganglia',          :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.0.0' #PRODUCTION
+mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.2' #PRODUCTION @WINDOWS
+mod 'ganglia',          :git => "#{base_url}/jhoblitt/puppet-ganglia",  :tag => 'v2.2.0' #PRODUCTION
 mod 'windows_java',     :git => "#{base_url}/cyberious/puppet-windows_java",  :tag => 'v1.0.2' #PRODUCTION #WINDOWS

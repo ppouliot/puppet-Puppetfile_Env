@@ -15,7 +15,6 @@ mod 'apache',          :git => "#{base_url}/puppetlabs/puppetlabs-apache",      
 mod 'inifile',         :git => "#{base_url}/puppetlabs/puppetlabs-inifile",         :tag => '1.4.3' #SUPPORTED
 mod 'mysql',           :git => "#{base_url}/puppetlabs/puppetlabs-mysql",           :tag => '3.6.2' #SUPPORTED
 mod 'postgresql',      :git => "#{base_url}/puppetlabs/puppetlabs-postgresql",      :tag => '4.7.1' #SUPPORTED
-
 mod 'ntp',             :git => "#{base_url}/puppetlabs/puppetlabs-ntp",             :tag => '4.1.2' #SUPPORTED
 mod 'java',            :git => "#{base_url}/puppetlabs/puppetlabs-java",            :tag => '1.4.3' #SUPPORTED
 mod 'haproxy',         :git => "#{base_url}/puppetlabs/puppetlabs-haproxy",         :tag => '1.4.0' #SUPPORTED
@@ -39,11 +38,11 @@ mod 'accounts',        :git => "#{base_url}/puppetlabs/puppetlabs-accounts",    
 #mod 'sqlserver',       :git => "#{base_url}/puppetlabs/puppetlabs-sqlserver",       :tag => '1.0.0' #SUPPORTED #WINDOWS
 
 # General Modules
-mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.3.0' #PRODUCTION
-mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.5.0' #PRODUCTION
-mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.2' #PRODUCTION
-mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.0.0' #PRODUCTION
-mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :tag => '5.2.3' #PRODUCTION
+mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
+mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.6.0' #PRODUCTION
+mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.3' #PRODUCTION
+mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.1.1' #PRODUCTION
+mod 'rabbitmq',        :git => "#{base_url}/puppetlabs/puppetlabs-rabbitmq",        :tag => '5.3.1' #PRODUCTION
 mod 'rsync',           :git => "#{base_url}/puppetlabs/puppetlabs-rsync",           :tag => '0.4.0' #PRODUCTION
 mod 'ruby',            :git => "#{base_url}/puppetlabs/puppetlabs-ruby",            :tag => '0.4.0' #PRODUCTION
 mod 'tftp',            :git => "#{base_url}/puppetlabs/puppetlabs-tftp",            :tag => '0.2.3' #PRODUCTION
