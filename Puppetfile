@@ -60,6 +60,8 @@ branch_name  = 'origin/mitaka'
 ##### Puppet Labs modules #####
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+mod 'augeas',   :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
+mod 'archive',  :git => "#{base_url}/camptocamp/puppet-archive", :tag => '0.8.1' #PRODUCTION
 mod 'freebsd',      :git => "http://tig.csail.mit.edu/git-public/freebsd.git" #PRODUCTION #FREEBSD
 mod 'logstash',          :git => "#{base_url}/elastic/puppet-logstash",      :tag => '0.5.1' #PRODUCTION
 mod 'logstash_reporter', :git => "#{base_url}/elastic/puppet-logstash-reporter",      :tag => '0.1.0' #PRODUCTION
@@ -87,7 +89,8 @@ mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WI
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',             :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
-mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
+#mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
+#mod 'archive',          :git => "#{base_url}/camptocamp/puppet-archive",  :tag => '0.8.1' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 #mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
@@ -193,7 +196,6 @@ mod 'nodejs',                     :git => "#{base_url}/voxpupuli/puppet-nodejs",
 mod 'jira',                       :git => "#{base_url}/voxpupuli/puppet-jira",                       :tag => '1.3.0' #PRODUCTION
 mod 'rundeck',                    :git => "#{base_url}/voxpupuli/puppet-rundeck",                    :tag => 'v2.2.0' #PRODUCTION
 mod 'stash',                      :git => "#{base_url}/voxpupuli/puppet-stash",                      :tag => '1.3.0' #PRODUCTION
-mod 'archive',                    :git => "#{base_url}/voxpupuli/puppet-archive",                    :tag => 'v0.4.8' #PRODUCTION
 mod 'alternatives',               :git => "#{base_url}/voxpupuli/puppet-alternatives",               :tag => '0.3.0' #PRODUCTION
 mod 'confluence',                 :git => "#{base_url}/voxpupuli/puppet-confluence",                 :tag => '2.1.1' #PRODUCTION
 mod 'mysql_java_connector',       :git => "#{base_url}/voxpupuli/puppet-mysql_java_connector",       :tag => '1.0.0' #PRODUCTION
