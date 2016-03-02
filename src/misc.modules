@@ -34,7 +34,8 @@ mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WI
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
 #mod 'nfs',             :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
-mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
+#mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
+#mod 'archive',          :git => "#{base_url}/camptocamp/puppet-archive",  :tag => '0.8.1' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
 #mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
