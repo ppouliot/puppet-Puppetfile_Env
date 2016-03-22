@@ -76,6 +76,7 @@ mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag =>
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn", :tag => '3.0.0' #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
+mod 'httpauth',      :git => "#{base_url}/jamtur01/jamtur01-httpauth" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.1'  #PRODUCTION #WINDOWS
 mod 'windows-path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION
 mod 'sysctl',        :git => "#{base_url}/duritong/puppet-sysctl" #PRODUCTION
