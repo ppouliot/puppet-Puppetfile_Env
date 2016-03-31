@@ -129,7 +129,8 @@ mod 'autofs',   :git => "#{base_url}/pdxcat/puppet-module-autofs",     :tag => '
 #,     :ref => 'master' #PRODUCTION
 #,     :tag => 'v1.0.2' #PRODUCTION
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
-mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT
+mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT #WINDOWS
+mod 'windows_platform_facts',  :git => "#{base_url}/ppouliot/puppet-windows_platform_facts" #PRODUCTION #DEVELOPMENT #WINDOWS
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
 mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
