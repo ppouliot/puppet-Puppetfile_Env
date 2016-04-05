@@ -66,6 +66,7 @@ mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DE
 mod 'profiles',      :git => "#{base_url}/ppouliot/puppet-profiles" #PRODUCTION #DEVELOPMENT
 mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT #WINDOWS
 mod 'windows_platform_facts',  :git => "#{base_url}/ppouliot/puppet-windows_platform_facts" #PRODUCTION #DEVELOPMENT #WINDOWS
+mod 'windows_containers',  :git => "#{base_url}/ppouliot/puppet-windows_containers" #PRODUCTION #DEVELOPMENT #WINDOWS
 mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
