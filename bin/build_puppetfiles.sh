@@ -31,6 +31,9 @@ cat src/header.txt > /tmp/puppetfile_env/master/Puppetfile.base
 cat src/settings.puppetfile >> /tmp/puppetfile_env/master/Puppetfile.base
 cat src/*.modules |grep '#SUPPORTED' >> /tmp/puppetfile_env/master/Puppetfile.base
 cat src/*.modules |grep '#APPROVED' >> /tmp/puppetfile_env/master/Puppetfile.base
+echo -n "generating Puppetfile.windows"
+cat src/header.txt > /tmp/puppetfile_env/master/Puppetfile.windows
+cat src/settings.puppetfile >> /tmp/puppetfile_env/master/Puppetfile.windows
 cat src/*.modules |grep '#WINDOWS' >> /tmp/puppetfile_env/master/Puppetfile.windows
 
 
