@@ -78,7 +78,7 @@ mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'httpauth',      :git => "#{base_url}/jamtur01/jamtur01-httpauth" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.1'  #PRODUCTION #WINDOWS
-mod 'windows_path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION
+mod 'windows_path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION #WINDOWS
 mod 'sysctl',        :git => "#{base_url}/duritong/puppet-sysctl" #PRODUCTION
 mod 'puppi',         :git => "#{base_url}/example42/puppi" #PRODUCTION
 mod 'perl',                      :git => "#{base_url}/example42/puppet-perl" #PRODUCTION
@@ -88,12 +88,8 @@ mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_mem
 mod 'hiera',        :git => "#{base_url}/hunner/puppet-hiera", :tag => '2.0.1' #PRODUCTION #SUPPORTED
 mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'nfs',              :git => "#{base_url}/haraldsk/puppet-module-nfs" #PRODUCTION
-#mod 'nfs',             :git => "#{base_url}/ghoneycutt/puppet-module-nfs" #PRODUCTION
 mod 'jenkins_security', :git => "#{base_url}/virmitio/puppet-jenkins_security" #PRODUCTION
-#mod 'augeas',           :git => "#{base_url}/camptocamp/puppet-augeas",  :tag => '1.4.2' #PRODUCTION
-#mod 'archive',          :git => "#{base_url}/camptocamp/puppet-archive",  :tag => '0.8.1' #PRODUCTION
 mod 'gitolite',         :git => "#{base_url}/nvalentine-puppetlabs/puppet-gitolite" #PRODUCTION   
-#mod 'network',          :git => "#{base_url}/puppet-community/puppet-network", :tag => '0.5.0-rc1' #PRODUCTION   
 mod 'timezone',         :git => "#{base_url}/BashtonLtd/puppet-timezone" #PRODUCTION   
 mod 'gerrit',           :git => "#{base_url}/roidelapluie/puppet-gerrit" #PRODUCTION
 mod 'windows_env',      :git => "#{base_url}/badgerious/puppet-windows-env",  :tag => 'v2.2.2' #PRODUCTION @WINDOWS
