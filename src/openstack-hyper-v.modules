@@ -38,3 +38,6 @@ mod 'openwsman',           :git => "#{ssh_url}/openstack-hyper-v/puppet-openwsma
 mod 'dns',                 :git => "#{ssh_url}/openstack-hyper-v/puppet-dns" #DEVELOPMENT
 mod 'sensu_server',        :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_server" #PRODUCTION
 mod 'sensu_client_plugins', :git => "#{ssh_url}/openstack-hyper-v/puppet-sensu_client_plugins" #PRODUCTION
+mod 'visualcplusplus2008', :git => "#{ssh_url}/openstack-hyper-v/puppet-visualcplusplus2008" #PRODUCTION #WINDOWS
+mod 'visualcplusplus2010', :git => "#{ssh_url}/openstack-hyper-v/puppet-visualcplusplus2010" #PRODUCTION #WINDOWS
+mod 'visualcplusplus2012', :git => "#{ssh_url}/openstack-hyper-v/puppet-visualcplusplus2012" #PRODUCTION #WINDOWS
