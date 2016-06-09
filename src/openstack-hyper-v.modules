@@ -21,6 +21,7 @@ mod 'windows_common',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_
 mod 'windows_freerdp',     :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_freerdp" #PRODUCTION
 mod 'windows_git',         :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_git" #PRODUCTION
 mod 'windows_7zip',        :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_7zip" #PRODUCTION
+mod 'windows_openssl',        :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_openssl" #PRODUCTION
 mod 'windows_chrome',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_chrome" #PRODUCTION
 mod 'java',                :git => "#{ssh_url}/openstack-hyper-v/puppetlabs-java" #PRODUCTION
 mod 'windows_python',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_python" #PRODUCTION
