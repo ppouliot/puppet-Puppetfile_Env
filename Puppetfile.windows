@@ -67,6 +67,16 @@ mod 'domain_membership',         :git => "#{base_url}/trlinkin/puppet-domain_mem
 mod 'dsc',              :git => "#{base_url}/msutter/puppet-dsc" #PRODUCTION #WINDOWS
 mod 'windows_java',     :git => "#{base_url}/cyberious/puppet-windows_java",  :tag => 'v1.0.2' #PRODUCTION #WINDOWS
 #mod 'winrm',  	        :git => "#{base_url}/nanliu/puppet-winrm",            :ref => 'master' #TESTING #WINDOWS
+mod 'petools',             :git => "#{ssh_url}/openstack-hyper-v/puppet-petools" #PRODUCTION #WINDOWS
+mod 'windows_common',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_common" #PRODUCTION #WINDOWS
+mod 'windows_freerdp',     :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_freerdp" #PRODUCTION #WINDOWS
+mod 'windows_git',         :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_git" #PRODUCTION #WINDOWS
+mod 'windows_7zip',        :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_7zip" #PRODUCTION #WINDOWS
+mod 'windows_openssl',     :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_openssl" #PRODUCTION #WINDOWS
+mod 'windows_chrome',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_chrome" #PRODUCTION #WINDOWS
+mod 'windows_python',      :git => "#{ssh_url}/openstack-hyper-v/puppet-windows_python" #PRODUCTION #WINDOWS
+mod 'hyper_v',             :git => "#{ssh_url}/openstack-hyper-v/puppet-hyper_v" #PRODUCTION #WINDOWS
+mod 'mingw',               :git => "#{ssh_url}/openstack-hyper-v/puppet-mingw" #PRODUCTION #WINDOWS
 mod 'windows_time',  :git => "#{base_url}/ppouliot/puppet-windows_time" #PRODUCTION #DEVELOPMENT #WINDOWS
 mod 'windows_platform_facts',  :git => "#{base_url}/ppouliot/puppet-windows_platform_facts" #PRODUCTION #DEVELOPMENT #WINDOWS
 mod 'windows_containers',  :git => "#{base_url}/ppouliot/puppet-windows_containers" #PRODUCTION #DEVELOPMENT #WINDOWS
