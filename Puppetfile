@@ -189,7 +189,7 @@ mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PROD
 mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODUCTION
 mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
 mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => 'v1.2.0'  #PRODUCTION
-mod 'drbd',                       :git => "#{base_url}/voxpupuli/puppet-drbd",                       :tag => '0.1.0'  #PRODUCTION
+mod 'drbd',                       :git => "#{base_url}/voxpupuli/puppet-drbd",                       :ref => master  #PRODUCTION
 mod 'unattend_upgrades',          :git => "#{base_url}/voxpupuli/puppet-unattended_upgrades",        :tag => 'v1.1.1'  #PRODUCTION
 mod 'collectd',                   :git => "#{base_url}/voxpupuli/puppet-collectd",                   :tag => 'v4.3.0' #PRODUCTION
 mod 'mcollective',                :git => "#{base_url}/voxpupuli/puppet-mcollective",                :tag => 'v2.1.1' #PRODUCTION
