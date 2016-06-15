@@ -72,3 +72,4 @@ mod 'pf',            :git => "#{base_url}/ppouliot/puppet-pf"       #DEVELOPMENT
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
 mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
+mod 'drbd', :git => "#{base_url}/ppouliot/puppet-drbd" #DEVELOPMENT
