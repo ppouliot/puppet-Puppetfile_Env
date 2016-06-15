@@ -60,3 +60,4 @@ branch_name  = 'origin/mitaka'
 ##### Puppet Labs modules #####
 
 openstack_repo_prefix = "#{base_url}/#{openstack_module_account}/puppet"
+mod 'jenkins',             :git => "#{ssh_url}/openstack-hyper-v/puppet-jenkins" #STAGING
