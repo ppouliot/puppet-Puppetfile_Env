@@ -1,4 +1,4 @@
-mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => 'v1.2.0'  #PRODUCTION
+mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => 'v2.0.1'  #PRODUCTION
 mod 'drbd',                       :git => "#{base_url}/voxpupuli/puppet-drbd",                       :ref => master  #PRODUCTION
 mod 'unattend_upgrades',          :git => "#{base_url}/voxpupuli/puppet-unattended_upgrades",        :tag => 'v1.1.1'  #PRODUCTION
 mod 'collectd',                   :git => "#{base_url}/voxpupuli/puppet-collectd",                   :tag => 'v4.3.0' #PRODUCTION
