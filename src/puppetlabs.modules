@@ -35,10 +35,9 @@ mod 'accounts',        :git => "#{base_url}/puppetlabs/puppetlabs-accounts",    
 #mod 'ciscopuppet',     :git => "#{base_url}/cisco/cisco-network-puppet-module",     :tag => 'v1.0.0' #SUPPORTED
 # Require License
 #mod 'f5',              :git => "#{base_url}/puppetlabs/puppetlabs-f5",              :tag => '1.0.0' #SUPPORTED #WINDOWS
-#mod 'sqlserver',       :git => "#{base_url}/puppetlabs/puppetlabs-sqlserver",       :tag => '1.0.0' #SUPPORTED #WINDOWS
-
-# General Modules
-mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
+# mod 'sqlserver',       :git => "#{base_url}/puppetlabs/puppetlabs-sqlserver",       :tag => '1.0.0' #SUPPORTED #WINDOWS
+#Module moved from puppetlabs to voxpupli/puppet-dhcp
+#mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
 mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.6.0' #PRODUCTION
 mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.3' #PRODUCTION
 mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.1.1' #PRODUCTION
