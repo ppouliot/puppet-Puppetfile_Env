@@ -183,7 +183,7 @@ mod 'sahara',            :git => "#{openstack_repo_prefix}-sahara",             
 mod 'swift',             :git => "#{openstack_repo_prefix}-swift",              :ref => openstack_module_branch #PRODUCTION
 mod 'tempest',           :git => "#{openstack_repo_prefix}-tempest",            :ref => openstack_module_branch #PRODUCTION
 mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              :ref => openstack_module_branch #PRODUCTION
-mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
+mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :tag => '5.1.0' #PRODUCTION
 mod 'quagga',  :git => "#{base_url}/thias/puppet-quagga"                  #PRODUCTION
 mod 'squid3',  :git => "#{base_url}/thias/puppet-squid3", :ref => 'master' #PRODUCTION
 mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODUCTION
