@@ -74,7 +74,7 @@ mod 'ssh_keygen', :git => "#{base_url}/maestrodev/puppet-ssh_keygen", :tag => 'v
 mod 'test',       :git => "#{base_url}/maestrodev/puppet-test",       :tag => 'v1.0.28' #PRODUCTION
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.4.0' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn", :tag => '3.0.0' #PRODUCTION
-mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns" #PRODUCTION
+mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns", :tag => 'v2.0.2' #PRODUCTION 
 mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
 mod 'httpauth',      :git => "#{base_url}/jamtur01/jamtur01-httpauth" #PRODUCTION
 mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.1'  #PRODUCTION #WINDOWS
@@ -136,7 +136,7 @@ mod 'windows_terminal_services',  :git => "#{base_url}/ppouliot/puppet-windows_t
 mod 'quartermaster', :git => "#{base_url}/ppouliot/puppet-quartermaster"#PRODUCTION #DEVELOPMENT
 mod 'maas', :git => "#{base_url}/ppouliot/puppet-maas" #PRODUCTION #DEVELOPMENT
 mod 'juju', :git => "#{base_url}/ppouliot/puppet-juju" #PRODUCTION #DEVELOPMENT
-mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
+#mod 'dhcp',            :git => "#{base_url}/puppetlabs/puppetlabs-dhcp",            :tag => '0.4.0' #PRODUCTION
 mod 'lvm',             :git => "#{base_url}/puppetlabs/puppetlabs-lvm",             :tag => '0.6.0' #PRODUCTION
 mod 'mount_providers', :git => "#{base_url}/puppetlabs/puppetlabs-mount_providers", :tag => '0.0.3' #PRODUCTION
 mod 'puppetdb',        :git => "#{base_url}/puppetlabs/puppetlabs-puppetdb",        :tag => '5.1.1' #PRODUCTION
@@ -190,6 +190,7 @@ mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODU
 mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
 mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => 'v2.0.1'  #PRODUCTION
 mod 'drbd',                       :git => "#{base_url}/voxpupuli/puppet-drbd",                       :ref => 'master'  #PRODUCTION
+mod 'dhcp',                       :git => "#{base_url}/voxpupuli/puppet-ddhcp",                      :tag => 'v1.5.0'  #PRODUCTION #Moduled moved from puppetlabs to puppet community
 mod 'unattend_upgrades',          :git => "#{base_url}/voxpupuli/puppet-unattended_upgrades",        :tag => 'v1.1.1'  #PRODUCTION
 mod 'collectd',                   :git => "#{base_url}/voxpupuli/puppet-collectd",                   :tag => 'v4.3.0' #PRODUCTION
 mod 'mcollective',                :git => "#{base_url}/voxpupuli/puppet-mcollective",                :tag => 'v2.1.1' #PRODUCTION
