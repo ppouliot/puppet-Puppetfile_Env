@@ -21,4 +21,4 @@ mod 'sahara',            :git => "#{openstack_repo_prefix}-sahara",             
 mod 'swift',             :git => "#{openstack_repo_prefix}-swift",              :ref => openstack_module_branch #PRODUCTION
 mod 'tempest',           :git => "#{openstack_repo_prefix}-tempest",            :ref => openstack_module_branch #PRODUCTION
 mod 'trove',             :git => "#{openstack_repo_prefix}-trove",              :ref => openstack_module_branch #PRODUCTION
-mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :ref => openstack_module_branch #PRODUCTION
+mod 'vswitch',           :git => "#{openstack_repo_prefix}-vswitch",            :tag => '5.1.0' #PRODUCTION
