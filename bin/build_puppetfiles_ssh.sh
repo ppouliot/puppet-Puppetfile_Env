@@ -3,7 +3,7 @@
 # This validates the formatting of the Puppetfile file
 #
 
-#baseurl_https = 'hypervci@github.com'
+#baseurl_https = 'git@github.com'
 #baseurl_git = 'git://github.com'
 
 git pull  
@@ -16,14 +16,14 @@ git push origin master
 echo -n "removing existing working dir and creating a new one"
 rm -rf /tmp/puppetfile_env
 mkdir -p /tmp/puppetfile_env
-git clone hypervci@github.com:ppouliot/puppet-Puppetfile_Env -b master /tmp/puppetfile_env/master
-git clone hypervci@github.com:ppouliot/puppet-Puppetfile_Env -b production /tmp/puppetfile_env/production
-git clone hypervci@github.com:ppouliot/puppet-Puppetfile_Env -b staging /tmp/puppetfile_env/staging
-git clone hypervci@github.com:ppouliot/puppet-Puppetfile_Env -b testing /tmp/puppetfile_env/testing
-git clone hypervci@github.com:ppouliot/puppet-Puppetfile_Env -b development /tmp/puppetfile_env/development
+git clone git@github.com:ppouliot/puppet-Puppetfile_Env -b master /tmp/puppetfile_env/master
+git clone git@github.com:ppouliot/puppet-Puppetfile_Env -b production /tmp/puppetfile_env/production
+git clone git@github.com:ppouliot/puppet-Puppetfile_Env -b staging /tmp/puppetfile_env/staging
+git clone git@github.com:ppouliot/puppet-Puppetfile_Env -b testing /tmp/puppetfile_env/testing
+git clone git@github.com:ppouliot/puppet-Puppetfile_Env -b development /tmp/puppetfile_env/development
 
 echo -n "removing /tmp/puppet-etc_puppet working dir and cloning a new one on from the git repo"
-rm -rf /tmp/puppet-etc_puppet && git clone hypervci@github.com:ppouliot/puppet-etc_puppet /tmp/puppet-etc_puppet
+rm -rf /tmp/puppet-etc_puppet && git clone git@github.com:ppouliot/puppet-etc_puppet /tmp/puppet-etc_puppet
 
 echo -n "generating the base puppetfile in the master branch"
 echo -n "this will be used to populate /etc/puppet/modules"
