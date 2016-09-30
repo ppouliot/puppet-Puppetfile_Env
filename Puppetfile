@@ -75,9 +75,9 @@ mod 'test',       :git => "#{base_url}/maestrodev/puppet-test",       :tag => 'v
 mod 'puppet',        :git => "#{base_url}/stephenrjohnson/puppetmodule", :tag => '1.4.0' #PRODUCTION
 mod 'openvpn',       :git => "#{base_url}/luxflux/puppet-openvpn", :tag => '3.0.0' #PRODUCTION
 mod 'dns',          :git => "#{base_url}/ajjahn/puppet-dns", :tag => 'v2.0.2' #PRODUCTION 
-mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION
+#mod 'nginx',         :git => "#{base_url}/jfryman/puppet-nginx" #PRODUCTION module moved to voxpupli/puppet-nginx
 mod 'httpauth',      :git => "#{base_url}/jamtur01/jamtur01-httpauth" #PRODUCTION
-mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.1'  #PRODUCTION #WINDOWS
+mod 'chocolatey',    :git => "#{base_url}/chocolatey/puppet-chocolatey",  :tag => '1.2.6'  #PRODUCTION #WINDOWS
 mod 'windows_path',  :git => "#{base_url}/basti1302/puppet-windows-path" #PRODUCTION #WINDOWS
 mod 'sysctl',        :git => "#{base_url}/duritong/puppet-sysctl" #PRODUCTION
 mod 'puppi',         :git => "#{base_url}/example42/puppi" #PRODUCTION
@@ -190,13 +190,14 @@ mod 'samba',   :git => "#{base_url}/thias/puppet-samba",  :tag => '1.0.0' #PRODU
 mod 'libvirt',   :git => "#{base_url}/thias/puppet-libvirt",  :tag => '1.0.0' #PRODUCTION
 mod 'corosync',                   :git => "#{base_url}/voxpupuli/puppet-corosync",                   :tag => 'v2.0.1'  #PRODUCTION
 mod 'drbd',                       :git => "#{base_url}/voxpupuli/puppet-drbd",                       :ref => 'master'  #PRODUCTION
-mod 'dhcp',                       :git => "#{base_url}/voxpupuli/puppet-ddhcp",                      :tag => 'v1.5.0'  #PRODUCTION #Moduled moved from puppetlabs to puppet community
+mod 'dhcp',                       :git => "#{base_url}/voxpupuli/puppet-dhcp",                      :tag => 'v1.5.0'  #PRODUCTION #Moduled moved from puppetlabs to puppet community
 mod 'unattend_upgrades',          :git => "#{base_url}/voxpupuli/puppet-unattended_upgrades",        :tag => 'v1.1.1'  #PRODUCTION
 mod 'collectd',                   :git => "#{base_url}/voxpupuli/puppet-collectd",                   :tag => 'v4.3.0' #PRODUCTION
 mod 'mcollective',                :git => "#{base_url}/voxpupuli/puppet-mcollective",                :tag => 'v2.1.1' #PRODUCTION
 mod 'jenkins_job_builder',        :git => "#{base_url}/voxpupuli/puppet-jenkins_job_builder",        :tag => 'v1.1.1' #PRODUCTION
 mod 'puppetboard',                :git => "#{base_url}/voxpupuli/puppet-module-puppetboard",         :tag => '2.7.3' #PRODUCTION
 mod 'amanda',                     :git => "#{base_url}/voxpupuli/puppet-module-amanda",              :tag => 'v1.0.2' #PRODUCTION
+mod 'nginx',                      :git => "#{base_url}/voxpupuli/puppet-nginx",                      :tag => 'v0.4.0' #PRODUCTION
 mod 'network',                    :git => "#{base_url}/voxpupuli/puppet-network",                    :tag => '0.5.0-rc1' #PRODUCTION
 mod 'nodejs',                     :git => "#{base_url}/voxpupuli/puppet-nodejs",                     :tag => 'v1.3.0' #PRODUCTION
 mod 'jira',                       :git => "#{base_url}/voxpupuli/puppet-jira",                       :tag => '1.3.0' #PRODUCTION
@@ -205,15 +206,17 @@ mod 'stash',                      :git => "#{base_url}/voxpupuli/puppet-stash", 
 mod 'alternatives',               :git => "#{base_url}/voxpupuli/puppet-alternatives",               :tag => '0.3.0' #PRODUCTION
 mod 'confluence',                 :git => "#{base_url}/voxpupuli/puppet-confluence",                 :tag => '2.1.1' #PRODUCTION
 mod 'mysql_java_connector',       :git => "#{base_url}/voxpupuli/puppet-mysql_java_connector",       :tag => '1.0.0' #PRODUCTION
+mod 'squid',                      :git => "#{base_url}/voxpupuli/puppet-squid",                      :tag => 'v0.2.2' #PRODUCTION
 mod 'staging',                    :git => "#{base_url}/voxpupuli/puppet-staging",                    :tag => '1.0.4' #PRODUCTION
 mod 'download_file',              :git => "#{base_url}/voxpupuli/puppet-download_file",              :tag => 'v1.3.0' #PRODUCTION
 mod 'iis',                        :git => "#{base_url}/voxpupuli/puppet-iis",                        :tag => 'v2.0.0' #PRODUCTION #WINDOWS
-mod 'windows_firewall',           :git => "#{base_url}/voxpupuli/puppet-windows_firewall",           :tag => 'v1.0.0' #PRODUCTION #WINDOWS
+mod 'windows_firewall',           :git => "#{base_url}/voxpupuli/puppet-windows_firewall",           :tag => 'v1.0.3' #PRODUCTION #WINDOWS
 mod 'msoffice',                   :git => "#{base_url}/voxpupuli/puppet-msoffice",                   :tag => 'v1.0.0' #PRODUCTION #WINDOWS
-mod 'windowsfeature',             :git => "#{base_url}/voxpupuli/puppet-windowsfeature",             :tag => 'v1.1.0' #PRODUCTION #WINDOWS
+mod 'windowsfeature',             :git => "#{base_url}/voxpupuli/puppet-windowsfeature",             :tag => 'v2.0.0' #PRODUCTION #WINDOWS
 mod 'nsclient',                   :git => "#{base_url}/voxpupuli/puppet-nsclient",                   :tag => 'v1.3.1' #PRODUCTION #WINDOWS
-mod 'windows_autoupdate',         :git => "#{base_url}/voxpupuli/puppet-windows_autoupdate",         :tag => 'v1.0.1' #PRODUCTION #WINDOWS
-mod 'windows_eventlog',           :git => "#{base_url}/voxpupuli/puppet-windows_eventlog",           :tag => 'v1.0.0' #PRODUCTION #WINDOWS
+mod 'windows_autoupdate',         :git => "#{base_url}/voxpupuli/puppet-windows_autoupdate",         :tag => 'v1.1.0' #PRODUCTION #WINDOWS
+mod 'windows_eventlog',           :git => "#{base_url}/voxpupuli/puppet-windows_eventlog",           :tag => 'v1.1.1' #PRODUCTION #WINDOWS
+mod 'windows_power',              :git => "#{base_url}/voxpupuli/puppet-windows_power",              :tag => 'v1.0.0' #PRODUCTION #WINDOWS
 mod 'graphite_powershell',        :git => "#{base_url}/voxpupuli/puppet-graphite_powershell",        :tag => 'v1.0.1' #PRODUCTION #WINDOWS
 mod 'sslcert',                    :git => "#{base_url}/voxpupuli/puppet-sslcert",                    :tag => 'v2.1.1' #PRODUCTION #WINDOWS
 mod 'visualstudio',               :git => "#{base_url}/voxpupuli/puppet-visualstudio",               :tag => 'v1.0.0' #PRODUCTION #WINDOWS
